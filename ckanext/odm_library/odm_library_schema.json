@@ -26,7 +26,8 @@
 			"th": "Formal full title",
 			"km": "ចំណងជើងជាផ្លូវការពេញលេញ",
 			"vi": "Tiêu đề đầy đủ chính thức",
-			"my": "ခေါင်းစဉ်အပြည့်အစုံ"
+			"my": "ခေါင်းစဉ်အပြည့်အစုံ",
+			"lo": "ຊື່ທາງການ"
 		},
 		"form_languages": ["en", "th", "km", "vi", "my"],
 		"form_placeholder": "Main title",
@@ -58,7 +59,8 @@
 			"th": "Short title (alternative/varying form of title)",
 			"km": "ចំណងជើងខ្លី (ចំណងជើងផ្សេងទៀត)",
 			"vi": "Tên rút gọn (tên thay thế/dạng viết khác)",
-			"my": "ခေါင်းစဉ်အတို (မူရင်းခေါင်းစဉ်နှင့်မတူသောခေါင်းစဉ်)"
+			"my": "ခေါင်းစဉ်အတို (မူရင်းခေါင်းစဉ်နှင့်မတူသောခေါင်းစဉ်)",
+			"lo": "ຊື່ຫຍໍ້ (ຊື່ອື່ນໆ/ຊື່ເອີ້ນຍ່ອຍ)"
 		},
 		"form_languages": ["en", "th", "km", "vi", "my"],
 		"form_snippet": "text.html",
@@ -79,7 +81,8 @@
 			"th": "Short summary (contents)",
 			"km": "សេចក្ដីសង្ខេបខ្លី (ខ្លឹមសារ)",
 			"vi": "Tóm tắt nội dung",
-			"my": "အနှစ်ချုပ် (အကြောင်းအရာ)"
+			"my": "အနှစ်ချုပ် (အကြောင်းအရာ)",
+			"lo": "ສະຫຼຸບຫຍໍ້ (ເນື້ອໃນ)"
 		},
 		"form_languages": ["en", "th", "km", "vi", "my"],
 		"form_placeholder": "Abstract or summary of book or articlee"
@@ -110,7 +113,8 @@
 			"th": "การเข้าถึงและข้อจำกัด",
 			"km": "កំហិតនៃការចូល និងប្រើប្រាស់",
 			"vi": "Hạn chế truy cập và sử dụng",
-			"my": "ရယူခြင်းနှင့် အကန့်အသတ်များအသုံးပြုခြင်း"
+			"my": "ရယူခြင်းနှင့် အကန့်အသတ်များအသုံးပြုခြင်း",
+			"lo": "ຂໍ້ຈຳກັດ ການເຂົ້າເຖິງ ແລະ ການນຳໃຊ້ງານ"
 		},
 		"form_languages": ["en", "th", "km", "vi", "my"],
 		"form_placeholder": "A few sentences describing legal considerations for people who access the website and/or use its contents."
@@ -153,7 +157,8 @@
 			"th": "ข้อมูลติดต่อ",
 			"km": "ទំនាក់ទំនង",
 			"vi": "Liên hệ",
-			"my": "ဆက်သွယ်ရန်"
+			"my": "ဆက်သွယ်ရန်",
+			"lo": "ສັນຍາ"
 		},
 		"form_languages": ["en", "th", "km", "vi", "my"],
 		"form_placeholder": "Contact information for the individual or organization that is responsible for or most knowledgeable about the dataset. This could be the author of a report, the contact information for the relevant department of an organization that produced a report, or the data analyst, mapper or researcher that produced a dataset or report."
@@ -196,7 +201,8 @@
 			"th": "Publication place",
 			"km": "កន្លែងបោះពុម្ភផ្សាយ",
 			"vi": "Nơi xuất bản",
-			"my": "ထုတ်ဝေသည့်ရေရာ "
+			"my": "ထုတ်ဝေသည့်ရေရာ ",
+			"lo": "ສະຖານທີ່ຕີພິມເອກະສານ"
 		},
 		"form_languages": ["en", "th", "km", "vi", "my"],
 		"form_placeholder": "Place of publisher"
@@ -209,7 +215,8 @@
 			"th": "ผู้พิมพ์",
 			"km": "អ្នកបោះពុម្ពផ្សាយ",
 			"vi": "Nhà xuất bản",
-			"my": "ထုတ်ဝေသူ"
+			"my": "ထုတ်ဝေသူ",
+			"lo": "ສຳນັກງານຈັດພິມເອກະສານ"
 		},
 		"form_languages": ["en", "th", "km", "vi", "my"],
 		"form_placeholder": "Name of publishing organization"
@@ -227,7 +234,8 @@
 			"th": "การให้เลขหน้า",
 			"km": "ការបង់លេខ",
 			"vi": "Đánh số trang",
-			"my": "စာမျက်နှာခွဲ"
+			"my": "စာမျက်နှာခွဲ",
+			"lo": "ຈຳນວນໜ້າຂອງເອກະສານ"
 		},
 		"form_languages": ["en", "th", "km", "vi", "my"],
 		"form_placeholder": "Physical description (pagination)"
@@ -240,7 +248,8 @@
 			"th": "หมายเหตุทั่วไป",
 			"km": "កំណត់សំគាល់ទូទៅង",
 			"vi": "Chú ý",
-			"my": "အထွေထွေ မှတ်ချက်"
+			"my": "အထွေထွေ မှတ်ချက်",
+			"lo": "ໝາຍເຫດ"
 		},
 		"form_languages": ["en", "th", "km", "vi", "my"],
 		"form_placeholder": "General note."
@@ -292,7 +301,8 @@
 			"th": "Name",
 			"km": "Name",
 			"vi": "Tên",
-			"my": "အမည်"
+			"my": "အမည်",
+			"lo": "ຊື່"
 		},
 		"form_languages": ["en", "th", "km", "vi", "my"],
 		"form_placeholder": "eg. January 2011 Gold Prices"
@@ -310,7 +320,8 @@
 			"th": "Description",
 			"km": "Description",
 			"vi": "Mô tả",
-			"my": "ဖော်ပြချက်"
+			"my": "ဖော်ပြချက်",
+			"lo": "ສະຫຼຸບຫຍໍ້ (ເນື້ອໃນ)"
 		},
 		"form_languages": ["en", "th", "km", "vi", "my"],
 		"form_placeholder": "Some useful notes about the data"
