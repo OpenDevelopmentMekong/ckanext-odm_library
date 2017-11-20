@@ -1,291 +1,291 @@
-#
+# 
 # Translators:
+# Noudsavanh Pheungsavanh <co@laolandinfo.org>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: ODM ckanext-odm_library\n"
-"POT-Creation-Date: 2016-12-06 15:36+0100\n"
-"PO-Revision-Date: 2016-12-06 15:36+0100\n"
-"Last-Translator: \n"
-"Language-Team: Lao (http://www.transifex.com/open-development-mekong/odm-"
-"ckanext-odm_library/language/lo/)\n"
-"Language: lo\n"
+"POT-Creation-Date: 2016-12-06 15:35+0100\n"
+"PO-Revision-Date: 2017-11-20 07:28+0000\n"
+"Last-Translator: Noudsavanh Pheungsavanh <co@laolandinfo.org>\n"
+"Language-Team: Lao (http://www.transifex.com/open-development-mekong/odm-ckanext-odm_library/language/lo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: lo\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 1.8.7.1\n"
 "X-Poedit-Basepath: ../../../ckanext\n"
-"X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: odm_library/i18n/metadata_fields.php:3
 msgid "Document type"
-msgstr ""
+msgstr "ປະເພດເອກະສານ"
 
 #: odm_library/i18n/metadata_fields.php:4
 msgid "Advocacy and promotional materials"
-msgstr ""
+msgstr "ເອກະສານກ່ຽວກັບ ການໂຄສະນາ ແລະ ການສົ່ງເສີມ  "
 
 #: odm_library/i18n/metadata_fields.php:5
 msgid "Analysis, discussion papers, and blogs"
-msgstr ""
+msgstr "ບົດວິເຄາະ, ບົດສົນທະນາ ແລະ ບລອກ"
 
 #: odm_library/i18n/metadata_fields.php:6
 msgid "Books and book chapters"
-msgstr ""
+msgstr "ປື້ມ ແລະ ພາກຕ່າງໆໃນປື້ມ"
 
 #: odm_library/i18n/metadata_fields.php:7
 msgid "Case studies"
-msgstr ""
+msgstr "ກໍລະນີສຶກສາ"
 
 #: odm_library/i18n/metadata_fields.php:8
 msgid "Issue and policy briefs"
-msgstr ""
+msgstr "ປະເດັນ ແລະ ບົດສະຫຼຸບຫຍໍ້ນະໂຍບາຍ"
 
 #: odm_library/i18n/metadata_fields.php:9
 msgid "Profiles - People"
-msgstr ""
+msgstr "ຂໍ້ມູນສ່ວນຕົວສຳລັບບຸກຄົນ"
 
 #: odm_library/i18n/metadata_fields.php:10
 msgid "Profiles - Organizations  and projects"
-msgstr ""
+msgstr "ຂໍ້ມູນກ່ຽວກັບອົງການ ແລະ ໂຄງການ"
 
 #: odm_library/i18n/metadata_fields.php:11
 msgid "Profiles - Geographical areas and sites"
-msgstr ""
+msgstr "ຂໍ້ມູນກ່ຽວກັບ ເຂດພູນສັນຖານ ແລະ ທີ່ຕັ້ງ"
 
 #: odm_library/i18n/metadata_fields.php:12
 msgid "Conference/workshop proceedings and presentations"
-msgstr ""
+msgstr "ກອງປະຊຸມ/ການຝຶກອົບຮົມ ແລະ ບົດນຳສະເໜີ "
 
 #: odm_library/i18n/metadata_fields.php:13
 msgid ""
 "Reports, journal articles, and research papers (including theses and "
 "dissertations)"
-msgstr ""
+msgstr "ບົດລາຍງານ, ຫົວຂໍ້ຂ່າວ ແລະ ບົດວິໄຈ (ເຊິ່ງລວມເຖິງ ບົດວິທະຍານິພົນ ແລະ ບົດບັນຍາຍ) "
 
 #: odm_library/i18n/metadata_fields.php:14
 msgid "Company profiles"
-msgstr ""
+msgstr "ຂໍ້ມູນກ່ຽວກັບບໍລິສັດ"
 
 #: odm_library/i18n/metadata_fields.php:15
 msgid "Language of document"
-msgstr ""
+msgstr "ພາສາຂອງບັນດາເອກະສານ"
 
 #: odm_library/i18n/metadata_fields.php:16
 msgid "Burmese"
-msgstr ""
+msgstr "ພາສາມຽນມາ"
 
 #: odm_library/i18n/metadata_fields.php:17
 msgid "English"
-msgstr ""
+msgstr "ພາສາອັງກິດ"
 
 #: odm_library/i18n/metadata_fields.php:18
 msgid "Khmer"
-msgstr ""
+msgstr "ພາສາກຳປູເຈຍ"
 
 #: odm_library/i18n/metadata_fields.php:19
 msgid "Lao"
-msgstr ""
+msgstr "ພາສາລາວ"
 
 #: odm_library/i18n/metadata_fields.php:20
 msgid "Thai"
-msgstr ""
+msgstr "ພາສາໄທ"
 
 #: odm_library/i18n/metadata_fields.php:21
 msgid "Vietnamese"
-msgstr ""
+msgstr "ພາສາຫວຽດນາມ"
 
 #: odm_library/i18n/metadata_fields.php:22
 msgid "Chinese"
-msgstr ""
+msgstr "ພາສາຈີນ"
 
 #: odm_library/i18n/metadata_fields.php:23
 msgid "French"
-msgstr ""
+msgstr "ພາສາຝຣັ່ງ"
 
 #: odm_library/i18n/metadata_fields.php:24
 msgid "German"
-msgstr ""
+msgstr "ພາສາເຢຍລະມັນ"
 
 #: odm_library/i18n/metadata_fields.php:25
 msgid "Japanese"
-msgstr ""
+msgstr "ພາສາຍີ່ປຸ່ນ"
 
 #: odm_library/i18n/metadata_fields.php:26
 msgid "Korean"
-msgstr ""
+msgstr "ພາສາເກົາຫຼີ"
 
 #: odm_library/i18n/metadata_fields.php:27
 msgid "Other"
-msgstr ""
+msgstr "ອື່ນໆ"
 
 #: odm_library/i18n/metadata_fields.php:28
 msgid "URL"
-msgstr ""
+msgstr "ທີ່ຢູ່ຂອງເວັບໄຊ້"
 
 #: odm_library/i18n/metadata_fields.php:29
 msgid "Formal full title"
-msgstr ""
+msgstr "ຊື່ທາງການ"
 
 #: odm_library/i18n/metadata_fields.php:30
 msgid "Short title (alternative/varying form of title)"
-msgstr ""
+msgstr "ຊື່ຫຍໍ້ (ຊື່ອື່ນໆ/ຊື່ເອີ້ນຍ່ອຍ)"
 
 #: odm_library/i18n/metadata_fields.php:31
 msgid "Topics"
-msgstr ""
+msgstr "ຫົວຂໍ້"
 
 #: odm_library/i18n/metadata_fields.php:32
 msgid "Short summary (contents)"
-msgstr ""
+msgstr "ສະຫຼຸບຫຍໍ້ (ເນື້ອໃນ)"
 
 #: odm_library/i18n/metadata_fields.php:33
 msgid "Geographic area (spatial range)"
-msgstr ""
+msgstr "ພື້ນທີ່ພູມມິສາດ (ລະດັບຄວາມກວ້າງຂອງພື້ນທີ່)"
 
 #: odm_library/i18n/metadata_fields.php:34
 msgid "Global"
-msgstr ""
+msgstr "ທົ່ວໂລກ"
 
 #: odm_library/i18n/metadata_fields.php:35
 msgid "ASEAN"
-msgstr ""
+msgstr "ອາຊຽນ"
 
 #: odm_library/i18n/metadata_fields.php:36
 msgid "Greater Mekong Subregion (GMS)"
-msgstr ""
+msgstr "ອະນຸພາກພື້ນລຸ່ມແມ່ນໍ້າຂອງ (GMS)"
 
 #: odm_library/i18n/metadata_fields.php:37
 msgid "Lower Mekong Basin"
-msgstr ""
+msgstr "ລຸ່ມແມ່ນໍ້າຂອງ"
 
 #: odm_library/i18n/metadata_fields.php:38
 msgid "Lower Mekong countries"
-msgstr ""
+msgstr "ບັນດາປະເທດລຸ່ມແມ່ນໍ້າຂອງ"
 
 #: odm_library/i18n/metadata_fields.php:39
 msgid "Cambodia"
-msgstr ""
+msgstr "ປະເທດກຳປູເຈຍ"
 
 #: odm_library/i18n/metadata_fields.php:40
 msgid "Vietnam"
-msgstr ""
+msgstr "ປະເທດຫວຽດນາມ"
 
 #: odm_library/i18n/metadata_fields.php:41
 msgid "Laos"
-msgstr ""
+msgstr "ປະເທດລາວ"
 
 #: odm_library/i18n/metadata_fields.php:42
 msgid "Thailand"
-msgstr ""
+msgstr "ປະເທດໄທ"
 
 #: odm_library/i18n/metadata_fields.php:43
 msgid "Myanmar"
-msgstr ""
+msgstr "ປະເທດມຽນມາ"
 
 #: odm_library/i18n/metadata_fields.php:44
 msgid "Copyright"
-msgstr ""
+msgstr "ລິດຂະສິດ"
 
 #: odm_library/i18n/metadata_fields.php:45
 msgid "Access and use constraints"
-msgstr ""
+msgstr "ຂໍ້ຈຳກັດ ການເຂົ້າເຖິງ ແລະ ການນຳໃຊ້ງານ"
 
 #: odm_library/i18n/metadata_fields.php:46
 msgid "Version / Edition"
-msgstr ""
+msgstr "ພາກ/ສະບັບ"
 
 #: odm_library/i18n/metadata_fields.php:47
 msgid "Organization"
-msgstr ""
+msgstr "ອົງການຈັດຕັ້ງ"
 
 #: odm_library/i18n/metadata_fields.php:48
 msgid "Date uploaded"
-msgstr ""
+msgstr "ຂໍ້ມູນທີ່ໄດ້ເອົາລົງສຳເລັດ"
 
 #: odm_library/i18n/metadata_fields.php:49
 msgid "License"
-msgstr ""
+msgstr "ການອະນຸມັດ"
 
 #: odm_library/i18n/metadata_fields.php:50
 msgid "Contact"
-msgstr ""
+msgstr "ສັນຍາ"
 
 #: odm_library/i18n/metadata_fields.php:51
 msgid "Author (individual)"
-msgstr ""
+msgstr "ຜູ້ຂຽນ (ສະເພາະບຸກຄົນ)"
 
 #: odm_library/i18n/metadata_fields.php:52
 msgid "Author (corporate)"
-msgstr ""
+msgstr "ຜູ້ຂຽນ (ອົງການ)"
 
 #: odm_library/i18n/metadata_fields.php:53
 msgid "Co-author (individual)"
-msgstr ""
+msgstr "ຜູ້ຂຽນຮ່ວມ (ສະເພາະບຸກຄົນ)"
 
 #: odm_library/i18n/metadata_fields.php:54
 msgid "Co-author (coorporate)"
-msgstr ""
+msgstr "ຜູ້ຂຽນຮ່ວມ (ອົງການ)"
 
 #: odm_library/i18n/metadata_fields.php:55
 msgid "ISBN number"
-msgstr ""
+msgstr "ເລກມາດຕະຖານສາກົນຂອງປື້ມ ຫຼື ເລກ ISBN"
 
 #: odm_library/i18n/metadata_fields.php:56
 msgid "ISSN number"
-msgstr ""
+msgstr "ເລກມາດຕະຖານສາກົນຂອງວາລະສານ ຫຼື ເລກ ISSN "
 
 #: odm_library/i18n/metadata_fields.php:57
 msgid "Publication place"
-msgstr ""
+msgstr "ສະຖານທີ່ຕີພິມເອກະສານ"
 
 #: odm_library/i18n/metadata_fields.php:58
 msgid "Publisher"
-msgstr ""
+msgstr "ສຳນັກງານຈັດພິມເອກະສານ"
 
 #: odm_library/i18n/metadata_fields.php:59
 msgid "Publication date"
-msgstr ""
+msgstr "ວັນທີຜະລິດ ເອກະສານ"
 
 #: odm_library/i18n/metadata_fields.php:60
 msgid "Pagination"
-msgstr ""
+msgstr "ຈຳນວນໜ້າຂອງເອກະສານ"
 
 #: odm_library/i18n/metadata_fields.php:61
 msgid "General note"
-msgstr ""
+msgstr "ໝາຍເຫດ"
 
 #: odm_library/i18n/metadata_fields.php:62
 msgid "Legacy reference document"
-msgstr ""
+msgstr "ເອກະສານອ້າງອີງ"
 
 #: odm_library/i18n/metadata_fields.php:63
 msgid "Maintainer"
-msgstr ""
+msgstr "ຜູ້ດູແລລະບົບ"
 
 #: odm_library/i18n/metadata_fields.php:64
 msgid "Maintainer email"
-msgstr ""
+msgstr "ອີເມລຂອງຜູ້ດູແລລະບົບ"
 
 #: odm_library/i18n/metadata_fields.php:65
 msgid "Name"
-msgstr ""
+msgstr "ຊື່"
 
 #: odm_library/i18n/metadata_fields.php:66
 msgid "Format"
-msgstr ""
+msgstr "ຮູບແບບ"
 
 #: odm_library/lib/odm_library_helper.py:27
 msgid ""
 "Thank you for uploading this item. Instructions about vetting system "
-"available on https://wiki.opendevelopmentmekong.net/partners:"
-"content_review#instructions_for_default_issue_on_library_records"
-msgstr ""
+"available on "
+"https://wiki.opendevelopmentmekong.net/partners:content_review#instructions_for_default_issue_on_library_records"
+msgstr "ຂອບໃຈຫຼາຍໆສຳລັບການລົງເອກະສານຊຸດນີ້. ທ່ານສາມາດ ກວບສອບຄວາມຖືກຕ້ອງຂອງຂໍ້ມູນຊຸດນີ້ຕາມລີ້ງຂ້າງລຸ່ມ:  https://wiki.opendevelopmentmekong.net/partners:content_review#instructions_for_default_issue_on_library_records"
 
 #: odm_library/templates/header.html:5
 msgid "Library"
-msgstr ""
+msgstr "ຫໍສະໝຸດ"
 
 #: odm_library/templates/package/base.html:5
 #: odm_library/templates/package/base.html:15
@@ -293,7 +293,7 @@ msgstr ""
 #: odm_library/templates/package/search.html:5
 #: odm_library/templates/package/search.html:13
 msgid "Library records"
-msgstr ""
+msgstr "ບັນດາເອກະສານ ໃນຫໍສະໝຸດ"
 
 #: odm_library/templates/package/base.html:19
 #: odm_library/templates/package/new.html:5
@@ -301,60 +301,60 @@ msgstr ""
 #: odm_library/templates/package/snippets/stages.html:7
 #: odm_library/templates/package/snippets/stages.html:9
 msgid "Create library record"
-msgstr ""
+msgstr "ສ້າງ ເອກະສານໃນຫໍສະໝຸດ"
 
 #: odm_library/templates/package/base_form_page.html:7
 msgid "What are Library records?"
-msgstr ""
+msgstr "ເອກະສານໃນຫໍສະໝຸດມີຫຍັງແດ່?"
 
 #: odm_library/templates/package/edit_base.html:5
 msgid "View library record"
-msgstr ""
+msgstr "ເບິ່ງເອກະສານໃນຫໍສະໝຸດ"
 
 #: odm_library/templates/package/new_package_form.html:8
 msgid "Update library record"
-msgstr ""
+msgstr "ປັບປຸງ ຂໍ້ມູນເອກະສານໃນຫໍສະໝຸດ"
 
 #: odm_library/templates/package/read_base.html:6
 msgid "Manage"
-msgstr ""
+msgstr "ການຈັດການ"
 
 #: odm_library/templates/package/read_base.html:15
 #: odm_library/templates/package/snippets/new_package_breadcrumb.html:4
 msgid "Library record"
-msgstr ""
+msgstr "ເອກະສານໃນຫໍສະໝຸດ"
 
 #: odm_library/templates/package/read_base.html:16
 msgid "Activity Stream"
-msgstr ""
+msgstr "ກິດຈະກຳເຄື່ອນໄຫວລ່າສຸດ"
 
 #: odm_library/templates/package/read_base.html:17
 msgid "Related"
-msgstr ""
+msgstr "ກ່ຽວຂ້ອງ"
 
 #: odm_library/templates/package/search.html:23
 msgid "Add library record"
-msgstr ""
+msgstr "ເພີ່ມເອກະສານໃນຫໍສະໝຸດ"
 
 #: odm_library/templates/package/snippets/package_form.html:5
 msgid "Are you sure you want to delete this dataset?"
-msgstr ""
+msgstr "ເຈົ້າໝັ້ນໃຈບໍວ່າຈະລົບລ້າງຂໍ້ມູນຊຸດນີ້?"
 
 #: odm_library/templates/package/snippets/package_form.html:6
 msgid "Delete"
-msgstr ""
+msgstr "ລົບລ້າງ"
 
 #: odm_library/templates/package/snippets/search_form.html:4
 #: odm_library/templates/snippets/search_form.html:6
 msgid "Search library records..."
-msgstr ""
+msgstr "ຄົ້ນຫາ ເອກະສານໃນຫໍສະໝຸດ"
 
 #: odm_library/templates/package/snippets/stages.html:14
 #: odm_library/templates/package/snippets/stages.html:18
 #: odm_library/templates/package/snippets/stages.html:20
 msgid "Add data"
-msgstr ""
+msgstr "ເພີ່ມຂໍ້ມູນ"
 
 #: odm_library/templates/snippets/search_form.html:12
 msgid "Submit"
-msgstr ""
+msgstr "ສົ່ງ"
