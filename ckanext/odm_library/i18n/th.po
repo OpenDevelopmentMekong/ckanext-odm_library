@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ODM ckanext-odm_library\n"
-"POT-Creation-Date: 2017-11-21 09:54+0100\n"
-"PO-Revision-Date: 2017-11-21 09:54+0100\n"
+"POT-Creation-Date: 2017-11-21 11:04+0100\n"
+"PO-Revision-Date: 2017-11-21 11:04+0100\n"
 "Last-Translator: Alex Corbi <a.corbi@gmail.com>\n"
 "Language-Team: Thai (http://www.transifex.com/open-development-mekong/odm-"
 "ckanext-odm_library/language/th/)\n"
@@ -303,6 +303,123 @@ msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:73
 msgid "Date modified"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:74
+msgid "Language(s) of the dataset, including resources within dataset."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:75
+msgid "Main title"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:76
+msgid "eg. my-dataset"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:77
+msgid "Parallel title or translation."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:78
+msgid "e.g. economy, mental health, government"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:79
+msgid "Abstract or summary of book or article"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:80
+msgid ""
+"The geographic area that the dataset is relevant to (i.e. Cambodia, Laos)."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:81
+msgid "The province(s) this dataset relates to"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:82
+msgid ""
+"A few sentences describing legal considerations for people who access the "
+"website and/or use its contents."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:83
+msgid "Version of publication"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:84
+#: odm_library/i18n/metadata_fields.php:85
+msgid "Date a new version or update of the dataset was uploaded."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:86
+msgid ""
+"Contact information for the individual or organization that is responsible "
+"for or most knowledgeable about the dataset. This could be the author of a "
+"report, the contact information for the relevant department of an "
+"organization that produced a report, or the data analyst, mapper or "
+"researcher that produced a dataset or report."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:87
+msgid "Main Entry-Personal Name (author)."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:88
+msgid "Main Entry-Corporate Name (corporate author) or title of journal."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:89
+msgid "Personal Name (co-author), more than one author."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:90
+msgid "Corporate Name, more than one Corporate."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:91
+msgid "13-digit unique number that uniquely identify a commercial book"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:92
+msgid "8-digit number that uniquely identify a serial publication"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:93
+msgid "Place of publisher"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:94
+msgid "Name of publishing organization"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:95
+msgid "Date published (YYYY)"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:96
+msgid "Physical description (pagination)"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:97
+msgid "General note."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:98
+msgid "e.g Tong_Min_Group_Engineering__21.06.2011.pdf"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:99
+msgid "eg. January 2011 Gold Prices"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:100
+msgid "Some useful notes about the data"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:101
+msgid "Language(s) of the resource."
 msgstr ""
 
 #: odm_library/templates/header.html:5

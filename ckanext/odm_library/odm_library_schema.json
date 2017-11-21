@@ -82,7 +82,7 @@
 			"my": "အနှစ်ချုပ် (အကြောင်းအရာ)"
 		},
 		"form_languages": ["en", "th", "km", "vi", "my"],
-		"form_placeholder": "Abstract or summary of book or articlee"
+		"form_placeholder": "Abstract or summary of book or article"
 	}, {
 		"field_name": "odm_spatial_range",
 		"label": "Geographic area (spatial range)",
@@ -171,12 +171,12 @@
 		"field_name": "marc21_700",
 		"label": "Co-author (individual)",
 		"form_snippet": "text.html",
-		"form_placeholder": "Personal Name (co-author), more than one author. "
+		"form_placeholder": "Personal Name (co-author), more than one author."
 	}, {
 		"field_name": "marc21_710",
 		"label": "Co-author (coorporate)",
 		"form_snippet": "text.html",
-		"form_placeholder": "Corporate Name, more than one Corporate. "
+		"form_placeholder": "Corporate Name, more than one Corporate."
 	}, {
 		"field_name": "marc21_020",
 		"label": "ISBN number",
