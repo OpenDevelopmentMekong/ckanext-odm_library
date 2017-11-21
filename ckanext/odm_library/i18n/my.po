@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ODM ckanext-odm_library\n"
-"POT-Creation-Date: 2016-12-06 15:36+0100\n"
-"PO-Revision-Date: 2016-12-06 15:36+0100\n"
+"POT-Creation-Date: 2017-11-21 09:54+0100\n"
+"PO-Revision-Date: 2017-11-21 09:54+0100\n"
 "Last-Translator: Alex Corbi <a.corbi@gmail.com>\n"
 "Language-Team: Burmese (http://www.transifex.com/open-development-mekong/odm-ckanext-odm_library/"
 "language/my/)\n"
@@ -63,8 +63,8 @@ msgstr "အစည်းအဝေးများ/ ဆွေးနွေးပွ�
 #: odm_library/i18n/metadata_fields.php:13
 msgid "Reports, journal articles, and research papers (including theses and dissertations)"
 msgstr ""
-"အစီရင်ခံစာများ၊ ဂျာနယ်ဆောင်းပါးများ၊ နှင့် သုတေသနစာတမ်းများ (အကြောင်းအရာတစ်ခုပေါ်လေ့လာချက်များ နှင့် သုတေသနမှတွေ့ရှိချက်များ "
-"အပါအဝင်)"
+"အစီရင်ခံစာများ၊ ဂျာနယ်ဆောင်းပါးများ၊ နှင့် သုတေသနစာတမ်းများ (အကြောင်းအရာတစ်ခုပေါ်လေ့လာချက်များ နှင့် "
+"သုတေသနမှတွေ့ရှိချက်များ အပါအဝင်)"
 
 #: odm_library/i18n/metadata_fields.php:14
 msgid "Company profiles"
@@ -278,13 +278,33 @@ msgstr "အမည်"
 msgid "Format"
 msgstr "ပုံစံ"
 
-#: odm_library/lib/odm_library_helper.py:27
-msgid ""
-"Thank you for uploading this item. Instructions about vetting system available on https://wiki."
-"opendevelopmentmekong.net/partners:content_review#instructions_for_default_issue_on_library_records"
+#: odm_library/i18n/metadata_fields.php:67
+msgid "Province(s)"
 msgstr ""
-"ဤအကြောင်းအရာကို တင်ပေးသည့်အတွက်ကျေးဇူးတင်ပါတယ်။ လေ့လာစီစစ်ခြင်းစနစ်အတွက် လမ်းညွှန်ကို https://wiki.opendevelopmentmekong."
-"net/partners:content_review#instructions_for_default_issue_on_library_records တွင်ကြည့်ရှုနိုင်သည်။"
+
+#: odm_library/i18n/metadata_fields.php:68
+msgid "Yes"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:69
+msgid "No"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:70
+msgid "Unclear copyright"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:71
+msgid "To be determined"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:72
+msgid "Keywords"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:73
+msgid "Date modified"
+msgstr ""
 
 #: odm_library/templates/header.html:5
 msgid "Library"
@@ -328,8 +348,12 @@ msgstr ""
 msgid "Activity Stream"
 msgstr ""
 
-#: odm_library/templates/package/read_base.html:17
-msgid "Related"
+#: odm_library/templates/package/read_base.html:29
+msgid "Record metadata not complete!!"
+msgstr ""
+
+#: odm_library/templates/package/read_base.html:31
+msgid "This publication is missing some mandatory fields, please complete:"
 msgstr ""
 
 #: odm_library/templates/package/search.html:23
@@ -358,3 +382,12 @@ msgstr ""
 #: odm_library/templates/snippets/search_form.html:12
 msgid "Submit"
 msgstr ""
+
+#~ msgid ""
+#~ "Thank you for uploading this item. Instructions about vetting system available on https://"
+#~ "wiki.opendevelopmentmekong.net/partners:"
+#~ "content_review#instructions_for_default_issue_on_library_records"
+#~ msgstr ""
+#~ "ဤအကြောင်းအရာကို တင်ပေးသည့်အတွက်ကျေးဇူးတင်ပါတယ်။ လေ့လာစီစစ်ခြင်းစနစ်အတွက် လမ်းညွှန်ကို https://wiki."
+#~ "opendevelopmentmekong.net/partners:"
+#~ "content_review#instructions_for_default_issue_on_library_records တွင်ကြည့်ရှုနိုင်သည်။"

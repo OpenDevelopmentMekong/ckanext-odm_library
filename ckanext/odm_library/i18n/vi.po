@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ODM ckanext-odm_library\n"
-"POT-Creation-Date: 2016-12-06 15:36+0100\n"
-"PO-Revision-Date: 2016-12-06 15:36+0100\n"
+"POT-Creation-Date: 2017-11-21 09:54+0100\n"
+"PO-Revision-Date: 2017-11-21 09:54+0100\n"
 "Last-Translator: Linh Do <linh@nature.org.vn>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/open-development-mekong/"
 "odm-ckanext-odm_library/language/vi/)\n"
@@ -282,15 +282,33 @@ msgstr "Tên"
 msgid "Format"
 msgstr "Định dạng"
 
-#: odm_library/lib/odm_library_helper.py:27
-msgid ""
-"Thank you for uploading this item. Instructions about vetting system "
-"available on https://wiki.opendevelopmentmekong.net/partners:"
-"content_review#instructions_for_default_issue_on_library_records"
+#: odm_library/i18n/metadata_fields.php:67
+msgid "Province(s)"
 msgstr ""
-"Cảm ơn bạn đã chia sẻ dữ liệu. Bạn có thể tham khảo hướng dẫn về quy trình "
-"kiểm duyệt thông tin của hệ thống tại https://wiki.opendevelopmentmekong.net/"
-"partners:content_review#instructions_for_default_issue_on_library_records"
+
+#: odm_library/i18n/metadata_fields.php:68
+msgid "Yes"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:69
+msgid "No"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:70
+msgid "Unclear copyright"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:71
+msgid "To be determined"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:72
+msgid "Keywords"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:73
+msgid "Date modified"
+msgstr ""
 
 #: odm_library/templates/header.html:5
 msgid "Library"
@@ -337,9 +355,13 @@ msgstr "Dữ liệu thư viện"
 msgid "Activity Stream"
 msgstr "Chuỗi hoạt động"
 
-#: odm_library/templates/package/read_base.html:17
-msgid "Related"
-msgstr "Có liên quan"
+#: odm_library/templates/package/read_base.html:29
+msgid "Record metadata not complete!!"
+msgstr ""
+
+#: odm_library/templates/package/read_base.html:31
+msgid "This publication is missing some mandatory fields, please complete:"
+msgstr ""
 
 #: odm_library/templates/package/search.html:23
 msgid "Add library record"
@@ -367,3 +389,16 @@ msgstr "Bổ sung dữ liệu"
 #: odm_library/templates/snippets/search_form.html:12
 msgid "Submit"
 msgstr "Gửi"
+
+#~ msgid ""
+#~ "Thank you for uploading this item. Instructions about vetting system "
+#~ "available on https://wiki.opendevelopmentmekong.net/partners:"
+#~ "content_review#instructions_for_default_issue_on_library_records"
+#~ msgstr ""
+#~ "Cảm ơn bạn đã chia sẻ dữ liệu. Bạn có thể tham khảo hướng dẫn về quy "
+#~ "trình kiểm duyệt thông tin của hệ thống tại https://wiki."
+#~ "opendevelopmentmekong.net/partners:"
+#~ "content_review#instructions_for_default_issue_on_library_records"
+
+#~ msgid "Related"
+#~ msgstr "Có liên quan"
