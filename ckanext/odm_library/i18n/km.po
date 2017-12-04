@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ODM ckanext-odm_library\n"
-"POT-Creation-Date: 2017-11-21 11:03+0100\n"
-"PO-Revision-Date: 2017-11-21 11:03+0100\n"
+"POT-Creation-Date: 2017-12-04 12:11+0100\n"
+"PO-Revision-Date: 2017-12-04 12:11+0100\n"
 "Last-Translator: Huy Eng Heng <huyeng_heng@yahoo.com>\n"
 "Language-Team: Khmer (http://www.transifex.com/open-development-mekong/odm-ckanext-odm_library/"
 "language/km/)\n"
@@ -23,29 +23,53 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: odm_library/i18n/metadata_fields.php:3
-msgid "Document type"
-msgstr "ប្រភេទនៃច្បាប់"
-
-#: odm_library/i18n/metadata_fields.php:4
+#: odm_library/i18n/document_types.php:3 odm_library/i18n/metadata_fields.php:4
 msgid "Advocacy and promotional materials"
 msgstr "ការតស៊ូមតិ និងសម្ភារៈផ្សព្វផ្សាយ"
 
-#: odm_library/i18n/metadata_fields.php:5
+#: odm_library/i18n/document_types.php:4 odm_library/i18n/metadata_fields.php:5
 msgid "Analysis, discussion papers, and blogs"
 msgstr "ការវិភាគ ឯកសារពិភាក្សា និងប្លុក"
 
-#: odm_library/i18n/metadata_fields.php:6
+#: odm_library/i18n/document_types.php:5 odm_library/i18n/metadata_fields.php:6
 msgid "Books and book chapters"
 msgstr "សៀវភៅ និងជំពូកសៀវភៅ"
 
-#: odm_library/i18n/metadata_fields.php:7
+#: odm_library/i18n/document_types.php:6 odm_library/i18n/metadata_fields.php:7
 msgid "Case studies"
 msgstr "ការ​សិក្សា​ដោយ​ពណ៌នា​ល្អិតល្អន់"
 
-#: odm_library/i18n/metadata_fields.php:8
+#: odm_library/i18n/document_types.php:7 odm_library/i18n/metadata_fields.php:8
 msgid "Issue and policy briefs"
 msgstr "សេចក្តីសង្ខេបពីបញ្ហានិងគោលនយោបាយ"
+
+#: odm_library/i18n/document_types.php:8 odm_library/i18n/metadata_fields.php:11
+msgid "Profiles - Geographical areas and sites"
+msgstr "ព័ត៌មានអំពី - តំបន់ភូមិសាស្រ្ត និងតំបន់នានា"
+
+#: odm_library/i18n/document_types.php:9 odm_library/i18n/metadata_fields.php:12
+msgid "Conference/workshop proceedings and presentations"
+msgstr "បទបង្ហាញ និងកំណត់​ហេតុនៃសន្និសីទ/សិក្ខាសាលា"
+
+#: odm_library/i18n/document_types.php:10 odm_library/i18n/metadata_fields.php:13
+msgid "Reports, journal articles, and research papers (including theses and dissertations)"
+msgstr "របាយការណ៍ អត្ថបទទិនានុប្បវត្តិ និងឯកសារស្រាវជ្រាវ (រួមបញ្ចូលទាំងនិក្ខេប​បទ និងបរមាធិប្បាយ)"
+
+#: odm_library/i18n/document_types.php:11
+msgid "Archived web content"
+msgstr ""
+
+#: odm_library/i18n/document_types.php:12
+msgid "EIA/SEIA"
+msgstr ""
+
+#: odm_library/i18n/document_types.php:13
+msgid "Guidelines, instruction manuals, handbooks"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:3
+msgid "Document type"
+msgstr "ប្រភេទនៃច្បាប់"
 
 #: odm_library/i18n/metadata_fields.php:9
 msgid "Profiles - People"
@@ -54,18 +78,6 @@ msgstr "ព័ត៌មានអំពី - ប្រជាជន"
 #: odm_library/i18n/metadata_fields.php:10
 msgid "Profiles - Organizations  and projects"
 msgstr "ព័ត៌មានអំពី - អង្គការ និងគម្រោង"
-
-#: odm_library/i18n/metadata_fields.php:11
-msgid "Profiles - Geographical areas and sites"
-msgstr "ព័ត៌មានអំពី - តំបន់ភូមិសាស្រ្ត និងតំបន់នានា"
-
-#: odm_library/i18n/metadata_fields.php:12
-msgid "Conference/workshop proceedings and presentations"
-msgstr "បទបង្ហាញ និងកំណត់​ហេតុនៃសន្និសីទ/សិក្ខាសាលា"
-
-#: odm_library/i18n/metadata_fields.php:13
-msgid "Reports, journal articles, and research papers (including theses and dissertations)"
-msgstr "របាយការណ៍ អត្ថបទទិនានុប្បវត្តិ និងឯកសារស្រាវជ្រាវ (រួមបញ្ចូលទាំងនិក្ខេប​បទ និងបរមាធិប្បាយ)"
 
 #: odm_library/i18n/metadata_fields.php:14
 msgid "Company profiles"
