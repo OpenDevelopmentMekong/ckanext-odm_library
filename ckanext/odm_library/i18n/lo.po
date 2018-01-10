@@ -1,12 +1,13 @@
 # 
 # Translators:
 # Noudsavanh Pheungsavanh <co@laolandinfo.org>, 2017
+# Pinkie, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: ODM ckanext-odm_library\n"
-"POT-Creation-Date: 2016-12-06 15:35+0100\n"
-"PO-Revision-Date: 2017-11-20 07:28+0000\n"
-"Last-Translator: Noudsavanh Pheungsavanh <co@laolandinfo.org>\n"
+"POT-Creation-Date: 2018-01-10 10:18+0100\n"
+"PO-Revision-Date: 2018-01-10 09:21+0000\n"
+"Last-Translator: Alex Corbi <a.corbi@gmail.com>\n"
 "Language-Team: Lao (http://www.transifex.com/open-development-mekong/odm-ckanext-odm_library/language/lo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,68 +21,57 @@ msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:3
 msgid "Document type"
-msgstr "ປະເພດເອກະສານ"
+msgstr ""
 
+#: odm_library/i18n/metadata_fields.php:4
 msgid "Advocacy and promotional materials"
-msgstr "ເອກະສານກ່ຽວກັບ ການໂຄສະນາ ແລະ ການສົ່ງເສີມ  "
+msgstr ""
 
-#: odm_library/i18n/document_types.php:4 odm_library/i18n/metadata_fields.php:5
+#: odm_library/i18n/metadata_fields.php:5
 msgid "Analysis, discussion papers, and blogs"
-msgstr "ບົດວິເຄາະ, ບົດສົນທະນາ ແລະ ບລອກ"
+msgstr ""
 
-#: odm_library/i18n/document_types.php:5 odm_library/i18n/metadata_fields.php:6
+#: odm_library/i18n/metadata_fields.php:6
 msgid "Books and book chapters"
-msgstr "ປື້ມ ແລະ ພາກຕ່າງໆໃນປື້ມ"
+msgstr ""
 
-#: odm_library/i18n/document_types.php:6 odm_library/i18n/metadata_fields.php:7
+#: odm_library/i18n/metadata_fields.php:7
 msgid "Case studies"
-msgstr "ກໍລະນີສຶກສາ"
+msgstr ""
 
-#: odm_library/i18n/document_types.php:7 odm_library/i18n/metadata_fields.php:8
+#: odm_library/i18n/metadata_fields.php:8
 msgid "Issue and policy briefs"
-msgstr "ປະເດັນ ແລະ ບົດສະຫຼຸບຫຍໍ້ນະໂຍບາຍ"
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:9
 msgid "Profiles - People"
-msgstr "ຂໍ້ມູນສ່ວນຕົວສຳລັບບຸກຄົນ"
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:10
 msgid "Profiles - Organizations  and projects"
-msgstr "ຂໍ້ມູນກ່ຽວກັບອົງການ ແລະ ໂຄງການ"
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:11
 msgid "Profiles - Geographical areas and sites"
-msgstr "ຂໍ້ມູນກ່ຽວກັບ ເຂດພູນສັນຖານ ແລະ ທີ່ຕັ້ງ"
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:12
 msgid "Conference/workshop proceedings and presentations"
-msgstr "ກອງປະຊຸມ/ການຝຶກອົບຮົມ ແລະ ບົດນຳສະເໜີ "
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:13
 msgid ""
 "Reports, journal articles, and research papers (including theses and "
 "dissertations)"
-msgstr "ບົດລາຍງານ, ຫົວຂໍ້ຂ່າວ ແລະ ບົດວິໄຈ (ເຊິ່ງລວມເຖິງ ບົດວິທະຍານິພົນ ແລະ ບົດບັນຍາຍ) "
-
-#: odm_library/i18n/metadata_fields.php:3
-msgid "Document type"
-msgstr "ປະເພດເອກະສານ"
-
-#: odm_library/i18n/metadata_fields.php:9
-msgid "Profiles - People"
-msgstr "ຂໍ້ມູນສ່ວນຕົວສຳລັບບຸກຄົນ"
-
-#: odm_library/i18n/metadata_fields.php:10
-msgid "Profiles - Organizations  and projects"
-msgstr "ຂໍ້ມູນກ່ຽວກັບອົງການ ແລະ ໂຄງການ"
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:14
 msgid "Company profiles"
-msgstr "ຂໍ້ມູນກ່ຽວກັບບໍລິສັດ"
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:15
 msgid "Language of document"
-msgstr "ພາສາຂອງບັນດາເອກະສານ"
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:16
 msgid "Burmese"
@@ -137,11 +127,11 @@ msgstr "ທີ່ຢູ່ຂອງເວັບໄຊ້"
 
 #: odm_library/i18n/metadata_fields.php:29
 msgid "Formal full title"
-msgstr "ຊື່ທາງການ"
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:30
 msgid "Short title (alternative/varying form of title)"
-msgstr "ຊື່ຫຍໍ້ (ຊື່ອື່ນໆ/ຊື່ເອີ້ນຍ່ອຍ)"
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:31
 msgid "Topics"
@@ -149,7 +139,7 @@ msgstr "ຫົວຂໍ້"
 
 #: odm_library/i18n/metadata_fields.php:32
 msgid "Short summary (contents)"
-msgstr "ສະຫຼຸບຫຍໍ້ (ເນື້ອໃນ)"
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:33
 msgid "Geographic area (spatial range)"
@@ -205,7 +195,7 @@ msgstr "ຂໍ້ຈຳກັດ ການເຂົ້າເຖິງ ແລະ 
 
 #: odm_library/i18n/metadata_fields.php:46
 msgid "Version / Edition"
-msgstr "ພາກ/ສະບັບ"
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:47
 msgid "Organization"
@@ -221,55 +211,55 @@ msgstr "ການອະນຸມັດ"
 
 #: odm_library/i18n/metadata_fields.php:50
 msgid "Contact"
-msgstr "ສັນຍາ"
+msgstr "ຂໍ້ມູນຕິດຕໍ່"
 
 #: odm_library/i18n/metadata_fields.php:51
 msgid "Author (individual)"
-msgstr "ຜູ້ຂຽນ (ສະເພາະບຸກຄົນ)"
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:52
 msgid "Author (corporate)"
-msgstr "ຜູ້ຂຽນ (ອົງການ)"
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:53
 msgid "Co-author (individual)"
-msgstr "ຜູ້ຂຽນຮ່ວມ (ສະເພາະບຸກຄົນ)"
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:54
 msgid "Co-author (coorporate)"
-msgstr "ຜູ້ຂຽນຮ່ວມ (ອົງການ)"
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:55
 msgid "ISBN number"
-msgstr "ເລກມາດຕະຖານສາກົນຂອງປື້ມ ຫຼື ເລກ ISBN"
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:56
 msgid "ISSN number"
-msgstr "ເລກມາດຕະຖານສາກົນຂອງວາລະສານ ຫຼື ເລກ ISSN "
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:57
 msgid "Publication place"
-msgstr "ສະຖານທີ່ຕີພິມເອກະສານ"
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:58
 msgid "Publisher"
-msgstr "ສຳນັກງານຈັດພິມເອກະສານ"
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:59
 msgid "Publication date"
-msgstr "ວັນທີຜະລິດ ເອກະສານ"
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:60
 msgid "Pagination"
-msgstr "ຈຳນວນໜ້າຂອງເອກະສານ"
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:61
 msgid "General note"
-msgstr "ໝາຍເຫດ"
+msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:62
 msgid "Legacy reference document"
-msgstr "ເອກະສານອ້າງອີງ"
+msgstr "ເອກະສານອ້າງອີງສະເພາະ"
 
 #: odm_library/i18n/metadata_fields.php:63
 msgid "Maintainer"
@@ -287,242 +277,9 @@ msgstr "ຊື່"
 msgid "Format"
 msgstr "ຮູບແບບ"
 
-#: odm_library/i18n/metadata_fields.php:67
-msgid "Province(s)"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:68
-msgid "Yes"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:69
-msgid "No"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:70
-msgid "Unclear copyright"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:71
-msgid "To be determined"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:72
-msgid "Keywords"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:73
-msgid "Date modified"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:74
-msgid "Language(s) of the dataset, including resources within dataset."
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:75
-msgid "Main title"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:76
-msgid "eg. my-dataset"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:77
-msgid "Parallel title or translation."
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:78
-msgid "e.g. economy, mental health, government"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:79
-msgid "Abstract or summary of book or article"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:80
-msgid "The geographic area that the dataset is relevant to (i.e. Cambodia, Laos)."
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:81
-msgid "The province(s) this dataset relates to"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:82
+#: odm_library/lib/odm_library_helper.py:30
 msgid ""
-"A few sentences describing legal considerations for people who access the website and/"
-"or use its contents."
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:83
-msgid "Version of publication"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:84 odm_library/i18n/metadata_fields.php:85
-msgid "Date a new version or update of the dataset was uploaded."
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:86
-msgid ""
-"Contact information for the individual or organization that is responsible for or most "
-"knowledgeable about the dataset. This could be the author of a report, the contact "
-"information for the relevant department of an organization that produced a report, or "
-"the data analyst, mapper or researcher that produced a dataset or report."
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:87
-msgid "Main Entry-Personal Name (author)."
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:88
-msgid "Main Entry-Corporate Name (corporate author) or title of journal."
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:89
-msgid "Personal Name (co-author), more than one author."
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:90
-msgid "Corporate Name, more than one Corporate."
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:91
-msgid "13-digit unique number that uniquely identify a commercial book"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:92
-msgid "8-digit number that uniquely identify a serial publication"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:93
-msgid "Place of publisher"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:94
-msgid "Name of publishing organization"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:95
-msgid "Date published (YYYY)"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:96
-msgid "Physical description (pagination)"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:97
-msgid "General note."
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:98
-msgid "e.g Tong_Min_Group_Engineering__21.06.2011.pdf"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:99
-msgid "eg. January 2011 Gold Prices"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:100
-msgid "Some useful notes about the data"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:101
-msgid "Language(s) of the resource."
-msgstr ""
-
 "Thank you for uploading this item. Instructions about vetting system "
 "available on "
 "https://wiki.opendevelopmentmekong.net/partners:content_review#instructions_for_default_issue_on_library_records"
-msgstr "ຂອບໃຈຫຼາຍໆສຳລັບການລົງເອກະສານຊຸດນີ້. ທ່ານສາມາດ ກວບສອບຄວາມຖືກຕ້ອງຂອງຂໍ້ມູນຊຸດນີ້ຕາມລີ້ງຂ້າງລຸ່ມ:  https://wiki.opendevelopmentmekong.net/partners:content_review#instructions_for_default_issue_on_library_records"
-
-#: odm_library/templates/header.html:5
-msgid "Library"
-msgstr "ຫໍສະໝຸດ"
-
-#: odm_library/templates/package/base.html:5 odm_library/templates/package/base.html:15
-#: odm_library/templates/package/base.html:18 odm_library/templates/package/search.html:5
-#: odm_library/templates/package/search.html:13
-msgid "Library records"
-msgstr "ບັນດາເອກະສານ ໃນຫໍສະໝຸດ"
-
-#: odm_library/templates/package/base.html:19 odm_library/templates/package/new.html:5
-#: odm_library/templates/package/snippets/new_package_breadcrumb.html:5
-#: odm_library/templates/package/snippets/stages.html:7
-#: odm_library/templates/package/snippets/stages.html:9
-msgid "Create library record"
-msgstr "ສ້າງ ເອກະສານໃນຫໍສະໝຸດ"
-
-#: odm_library/templates/package/base_form_page.html:7
-msgid "What are Library records?"
-msgstr "ເອກະສານໃນຫໍສະໝຸດມີຫຍັງແດ່?"
-
-#: odm_library/templates/package/edit_base.html:5
-msgid "View library record"
-msgstr "ເບິ່ງເອກະສານໃນຫໍສະໝຸດ"
-
-#: odm_library/templates/package/new_package_form.html:8
-msgid "Update library record"
-msgstr "ປັບປຸງ ຂໍ້ມູນເອກະສານໃນຫໍສະໝຸດ"
-
-#: odm_library/templates/package/read_base.html:6
-msgid "Manage"
-msgstr "ການຈັດການ"
-
-#: odm_library/templates/package/read_base.html:15
-#: odm_library/templates/package/snippets/new_package_breadcrumb.html:4
-msgid "Library record"
-msgstr "ເອກະສານໃນຫໍສະໝຸດ"
-
-#: odm_library/templates/package/read_base.html:16
-msgid "Activity Stream"
-msgstr "ກິດຈະກຳເຄື່ອນໄຫວລ່າສຸດ"
-
-#: odm_library/templates/package/read_base.html:29
-msgid "Record metadata not complete!!"
 msgstr ""
-
-#: odm_library/templates/package/read_base.html:31
-msgid "This publication is missing some mandatory fields, please complete:"
-msgstr ""
-
-#: odm_library/templates/package/read_base.html:17
-msgid "Related"
-msgstr "ກ່ຽວຂ້ອງ"
-
-#: odm_library/templates/package/search.html:23
-msgid "Add library record"
-msgstr "ເພີ່ມເອກະສານໃນຫໍສະໝຸດ"
-
-#: odm_library/templates/package/snippets/package_form.html:5
-msgid "Are you sure you want to delete this dataset?"
-msgstr "ເຈົ້າໝັ້ນໃຈບໍວ່າຈະລົບລ້າງຂໍ້ມູນຊຸດນີ້?"
-
-#: odm_library/templates/package/snippets/package_form.html:6
-msgid "Delete"
-msgstr "ລົບລ້າງ"
-
-#: odm_library/templates/package/snippets/search_form.html:4
-#: odm_library/templates/snippets/search_form.html:6
-msgid "Search library records..."
-msgstr "ຄົ້ນຫາ ເອກະສານໃນຫໍສະໝຸດ"
-
-#: odm_library/templates/package/snippets/stages.html:14
-#: odm_library/templates/package/snippets/stages.html:18
-#: odm_library/templates/package/snippets/stages.html:20
-msgid "Add data"
-msgstr "ເພີ່ມຂໍ້ມູນ"
-
-#: odm_library/templates/snippets/search_form.html:12
-msgid "Submit"
-msgstr "ສົ່ງ"
-
-#~ msgid ""
-#~ "Thank you for uploading this item. Instructions about vetting system available on "
-#~ "https://wiki.opendevelopmentmekong.net/partners:"
-#~ "content_review#instructions_for_default_issue_on_library_records"
-#~ msgstr ""
-#~ "ຂອບໃຈຫຼາຍໆສຳລັບການລົງເອກະສານຊຸດນີ້. ທ່ານສາມາດເຂົ້າເບິ່ງຄຳແນະນຳເພື່ອ "
-#~ "ກວບສອບຄວາມຖືກຕ້ອງຂອງຂໍ້ມູນຊຸດນີ້ຕາມລີ້ງຂ້າງລຸ່ມ:  https://wiki.opendevelopmentmekong.net/partners:"
-#~ "content_review#instructions_for_default_issue_on_library_records"
-
-#~ msgid "Related"
-#~ msgstr "ກ່ຽວຂ້ອງ"

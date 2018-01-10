@@ -1,8 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-odm_library\n"
+<<<<<<< HEAD
+"POT-Creation-Date: 2018-01-10 10:18+0100\n"
+"PO-Revision-Date: 2018-01-10 10:18+0100\n"
+=======
 "POT-Creation-Date: 2017-12-04 12:11+0100\n"
 "PO-Revision-Date: 2017-12-04 12:11+0100\n"
+>>>>>>> 7fcdfeece3fa5c3357c1f95aac1dc41bd0026b72
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -288,6 +293,9 @@ msgstr ""
 msgid "Format"
 msgstr ""
 
+<<<<<<< HEAD
+#: odm_library/lib/odm_library_helper.py:30
+=======
 #: odm_library/i18n/metadata_fields.php:67
 msgid "Province(s)"
 msgstr ""
@@ -341,6 +349,7 @@ msgid "Abstract or summary of book or article"
 msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:80
+>>>>>>> 7fcdfeece3fa5c3357c1f95aac1dc41bd0026b72
 msgid ""
 "The geographic area that the dataset is relevant to (i.e. Cambodia, Laos)."
 msgstr ""
@@ -432,6 +441,8 @@ msgstr ""
 #: odm_library/i18n/metadata_fields.php:101
 msgid "Language(s) of the resource."
 msgstr ""
+<<<<<<< HEAD
+=======
 
 #: odm_library/templates/header.html:5
 msgid "Library"
@@ -512,3 +523,4 @@ msgstr ""
 #: odm_library/templates/snippets/search_form.html:12
 msgid "Submit"
 msgstr ""
+>>>>>>> 7fcdfeece3fa5c3357c1f95aac1dc41bd0026b72
