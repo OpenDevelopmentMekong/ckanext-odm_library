@@ -1,25 +1,27 @@
-#
+# 
 # Translators:
 # Noudsavanh Pheungsavanh <co@laolandinfo.org>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: ODM ckanext-odm_library\n"
-"POT-Creation-Date: 2017-12-04 12:11+0100\n"
-"PO-Revision-Date: 2017-12-04 12:11+0100\n"
-"Last-Translator: Pinkie\n"
-"Language-Team: Lao (http://www.transifex.com/open-development-mekong/odm-ckanext-"
-"odm_library/language/lo/)\n"
-"Language: lo\n"
+"POT-Creation-Date: 2016-12-06 15:35+0100\n"
+"PO-Revision-Date: 2017-11-20 07:28+0000\n"
+"Last-Translator: Noudsavanh Pheungsavanh <co@laolandinfo.org>\n"
+"Language-Team: Lao (http://www.transifex.com/open-development-mekong/odm-ckanext-odm_library/language/lo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: lo\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 1.8.7.1\n"
 "X-Poedit-Basepath: ../../../ckanext\n"
-"X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
-#: odm_library/i18n/document_types.php:3 odm_library/i18n/metadata_fields.php:4
+#: odm_library/i18n/metadata_fields.php:3
+msgid "Document type"
+msgstr "ປະເພດເອກະສານ"
+
 msgid "Advocacy and promotional materials"
 msgstr "ເອກະສານກ່ຽວກັບ ການໂຄສະນາ ແລະ ການສົ່ງເສີມ  "
 
@@ -39,30 +41,27 @@ msgstr "ກໍລະນີສຶກສາ"
 msgid "Issue and policy briefs"
 msgstr "ປະເດັນ ແລະ ບົດສະຫຼຸບຫຍໍ້ນະໂຍບາຍ"
 
-#: odm_library/i18n/document_types.php:8 odm_library/i18n/metadata_fields.php:11
+#: odm_library/i18n/metadata_fields.php:9
+msgid "Profiles - People"
+msgstr "ຂໍ້ມູນສ່ວນຕົວສຳລັບບຸກຄົນ"
+
+#: odm_library/i18n/metadata_fields.php:10
+msgid "Profiles - Organizations  and projects"
+msgstr "ຂໍ້ມູນກ່ຽວກັບອົງການ ແລະ ໂຄງການ"
+
+#: odm_library/i18n/metadata_fields.php:11
 msgid "Profiles - Geographical areas and sites"
 msgstr "ຂໍ້ມູນກ່ຽວກັບ ເຂດພູນສັນຖານ ແລະ ທີ່ຕັ້ງ"
 
-#: odm_library/i18n/document_types.php:9 odm_library/i18n/metadata_fields.php:12
+#: odm_library/i18n/metadata_fields.php:12
 msgid "Conference/workshop proceedings and presentations"
 msgstr "ກອງປະຊຸມ/ການຝຶກອົບຮົມ ແລະ ບົດນຳສະເໜີ "
 
-#: odm_library/i18n/document_types.php:10 odm_library/i18n/metadata_fields.php:13
+#: odm_library/i18n/metadata_fields.php:13
 msgid ""
-"Reports, journal articles, and research papers (including theses and dissertations)"
+"Reports, journal articles, and research papers (including theses and "
+"dissertations)"
 msgstr "ບົດລາຍງານ, ຫົວຂໍ້ຂ່າວ ແລະ ບົດວິໄຈ (ເຊິ່ງລວມເຖິງ ບົດວິທະຍານິພົນ ແລະ ບົດບັນຍາຍ) "
-
-#: odm_library/i18n/document_types.php:11
-msgid "Archived web content"
-msgstr ""
-
-#: odm_library/i18n/document_types.php:12
-msgid "EIA/SEIA"
-msgstr ""
-
-#: odm_library/i18n/document_types.php:13
-msgid "Guidelines, instruction manuals, handbooks"
-msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:3
 msgid "Document type"
@@ -222,7 +221,7 @@ msgstr "ການອະນຸມັດ"
 
 #: odm_library/i18n/metadata_fields.php:50
 msgid "Contact"
-msgstr "ຂໍ້ມູນຕິດຕໍ່"
+msgstr "ສັນຍາ"
 
 #: odm_library/i18n/metadata_fields.php:51
 msgid "Author (individual)"
@@ -270,7 +269,7 @@ msgstr "ໝາຍເຫດ"
 
 #: odm_library/i18n/metadata_fields.php:62
 msgid "Legacy reference document"
-msgstr "ເອກະສານອ້າງອີງສະເພາະ"
+msgstr "ເອກະສານອ້າງອີງ"
 
 #: odm_library/i18n/metadata_fields.php:63
 msgid "Maintainer"
@@ -430,6 +429,11 @@ msgstr ""
 msgid "Language(s) of the resource."
 msgstr ""
 
+"Thank you for uploading this item. Instructions about vetting system "
+"available on "
+"https://wiki.opendevelopmentmekong.net/partners:content_review#instructions_for_default_issue_on_library_records"
+msgstr "ຂອບໃຈຫຼາຍໆສຳລັບການລົງເອກະສານຊຸດນີ້. ທ່ານສາມາດ ກວບສອບຄວາມຖືກຕ້ອງຂອງຂໍ້ມູນຊຸດນີ້ຕາມລີ້ງຂ້າງລຸ່ມ:  https://wiki.opendevelopmentmekong.net/partners:content_review#instructions_for_default_issue_on_library_records"
+
 #: odm_library/templates/header.html:5
 msgid "Library"
 msgstr "ຫໍສະໝຸດ"
@@ -479,6 +483,10 @@ msgstr ""
 #: odm_library/templates/package/read_base.html:31
 msgid "This publication is missing some mandatory fields, please complete:"
 msgstr ""
+
+#: odm_library/templates/package/read_base.html:17
+msgid "Related"
+msgstr "ກ່ຽວຂ້ອງ"
 
 #: odm_library/templates/package/search.html:23
 msgid "Add library record"
