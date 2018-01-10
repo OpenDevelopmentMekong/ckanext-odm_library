@@ -1,8 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-odm_library\n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2018-01-10 10:18+0100\n"
 "PO-Revision-Date: 2018-01-10 10:18+0100\n"
+=======
+"POT-Creation-Date: 2017-12-04 12:11+0100\n"
+"PO-Revision-Date: 2017-12-04 12:11+0100\n"
+>>>>>>> 7fcdfeece3fa5c3357c1f95aac1dc41bd0026b72
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -15,28 +20,57 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: odm_library/i18n/metadata_fields.php:3
-msgid "Document type"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:4
+#: odm_library/i18n/document_types.php:3 odm_library/i18n/metadata_fields.php:4
 msgid "Advocacy and promotional materials"
 msgstr ""
 
-#: odm_library/i18n/metadata_fields.php:5
+#: odm_library/i18n/document_types.php:4 odm_library/i18n/metadata_fields.php:5
 msgid "Analysis, discussion papers, and blogs"
 msgstr ""
 
-#: odm_library/i18n/metadata_fields.php:6
+#: odm_library/i18n/document_types.php:5 odm_library/i18n/metadata_fields.php:6
 msgid "Books and book chapters"
 msgstr ""
 
-#: odm_library/i18n/metadata_fields.php:7
+#: odm_library/i18n/document_types.php:6 odm_library/i18n/metadata_fields.php:7
 msgid "Case studies"
 msgstr ""
 
-#: odm_library/i18n/metadata_fields.php:8
+#: odm_library/i18n/document_types.php:7 odm_library/i18n/metadata_fields.php:8
 msgid "Issue and policy briefs"
+msgstr ""
+
+#: odm_library/i18n/document_types.php:8
+#: odm_library/i18n/metadata_fields.php:11
+msgid "Profiles - Geographical areas and sites"
+msgstr ""
+
+#: odm_library/i18n/document_types.php:9
+#: odm_library/i18n/metadata_fields.php:12
+msgid "Conference/workshop proceedings and presentations"
+msgstr ""
+
+#: odm_library/i18n/document_types.php:10
+#: odm_library/i18n/metadata_fields.php:13
+msgid ""
+"Reports, journal articles, and research papers (including theses and "
+"dissertations)"
+msgstr ""
+
+#: odm_library/i18n/document_types.php:11
+msgid "Archived web content"
+msgstr ""
+
+#: odm_library/i18n/document_types.php:12
+msgid "EIA/SEIA"
+msgstr ""
+
+#: odm_library/i18n/document_types.php:13
+msgid "Guidelines, instruction manuals, handbooks"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:3
+msgid "Document type"
 msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:9
@@ -45,20 +79,6 @@ msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:10
 msgid "Profiles - Organizations  and projects"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:11
-msgid "Profiles - Geographical areas and sites"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:12
-msgid "Conference/workshop proceedings and presentations"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:13
-msgid ""
-"Reports, journal articles, and research papers (including theses and "
-"dissertations)"
 msgstr ""
 
 #: odm_library/i18n/metadata_fields.php:14
@@ -273,9 +293,234 @@ msgstr ""
 msgid "Format"
 msgstr ""
 
+<<<<<<< HEAD
 #: odm_library/lib/odm_library_helper.py:30
-msgid ""
-"Thank you for uploading this item. Instructions about vetting system "
-"available on https://wiki.opendevelopmentmekong.net/partners:"
-"content_review#instructions_for_default_issue_on_library_records"
+=======
+#: odm_library/i18n/metadata_fields.php:67
+msgid "Province(s)"
 msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:68
+msgid "Yes"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:69
+msgid "No"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:70
+msgid "Unclear copyright"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:71
+msgid "To be determined"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:72
+msgid "Keywords"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:73
+msgid "Date modified"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:74
+msgid "Language(s) of the dataset, including resources within dataset."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:75
+msgid "Main title"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:76
+msgid "eg. my-dataset"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:77
+msgid "Parallel title or translation."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:78
+msgid "e.g. economy, mental health, government"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:79
+msgid "Abstract or summary of book or article"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:80
+>>>>>>> 7fcdfeece3fa5c3357c1f95aac1dc41bd0026b72
+msgid ""
+"The geographic area that the dataset is relevant to (i.e. Cambodia, Laos)."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:81
+msgid "The province(s) this dataset relates to"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:82
+msgid ""
+"A few sentences describing legal considerations for people who access the "
+"website and/or use its contents."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:83
+msgid "Version of publication"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:84
+#: odm_library/i18n/metadata_fields.php:85
+msgid "Date a new version or update of the dataset was uploaded."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:86
+msgid ""
+"Contact information for the individual or organization that is responsible "
+"for or most knowledgeable about the dataset. This could be the author of a "
+"report, the contact information for the relevant department of an "
+"organization that produced a report, or the data analyst, mapper or "
+"researcher that produced a dataset or report."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:87
+msgid "Main Entry-Personal Name (author)."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:88
+msgid "Main Entry-Corporate Name (corporate author) or title of journal."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:89
+msgid "Personal Name (co-author), more than one author."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:90
+msgid "Corporate Name, more than one Corporate."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:91
+msgid "13-digit unique number that uniquely identify a commercial book"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:92
+msgid "8-digit number that uniquely identify a serial publication"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:93
+msgid "Place of publisher"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:94
+msgid "Name of publishing organization"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:95
+msgid "Date published (YYYY)"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:96
+msgid "Physical description (pagination)"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:97
+msgid "General note."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:98
+msgid "e.g Tong_Min_Group_Engineering__21.06.2011.pdf"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:99
+msgid "eg. January 2011 Gold Prices"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:100
+msgid "Some useful notes about the data"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:101
+msgid "Language(s) of the resource."
+msgstr ""
+<<<<<<< HEAD
+=======
+
+#: odm_library/templates/header.html:5
+msgid "Library"
+msgstr ""
+
+#: odm_library/templates/package/base.html:5
+#: odm_library/templates/package/base.html:15
+#: odm_library/templates/package/base.html:18
+#: odm_library/templates/package/search.html:5
+#: odm_library/templates/package/search.html:13
+msgid "Library records"
+msgstr ""
+
+#: odm_library/templates/package/base.html:19
+#: odm_library/templates/package/new.html:5
+#: odm_library/templates/package/snippets/new_package_breadcrumb.html:5
+#: odm_library/templates/package/snippets/stages.html:7
+#: odm_library/templates/package/snippets/stages.html:9
+msgid "Create library record"
+msgstr ""
+
+#: odm_library/templates/package/base_form_page.html:7
+msgid "What are Library records?"
+msgstr ""
+
+#: odm_library/templates/package/edit_base.html:5
+msgid "View library record"
+msgstr ""
+
+#: odm_library/templates/package/new_package_form.html:8
+msgid "Update library record"
+msgstr ""
+
+#: odm_library/templates/package/read_base.html:6
+msgid "Manage"
+msgstr ""
+
+#: odm_library/templates/package/read_base.html:15
+#: odm_library/templates/package/snippets/new_package_breadcrumb.html:4
+msgid "Library record"
+msgstr ""
+
+#: odm_library/templates/package/read_base.html:16
+msgid "Activity Stream"
+msgstr ""
+
+#: odm_library/templates/package/read_base.html:29
+msgid "Record metadata not complete!!"
+msgstr ""
+
+#: odm_library/templates/package/read_base.html:31
+msgid "This publication is missing some mandatory fields, please complete:"
+msgstr ""
+
+#: odm_library/templates/package/search.html:23
+msgid "Add library record"
+msgstr ""
+
+#: odm_library/templates/package/snippets/package_form.html:5
+msgid "Are you sure you want to delete this dataset?"
+msgstr ""
+
+#: odm_library/templates/package/snippets/package_form.html:6
+msgid "Delete"
+msgstr ""
+
+#: odm_library/templates/package/snippets/search_form.html:4
+#: odm_library/templates/snippets/search_form.html:6
+msgid "Search library records..."
+msgstr ""
+
+#: odm_library/templates/package/snippets/stages.html:14
+#: odm_library/templates/package/snippets/stages.html:18
+#: odm_library/templates/package/snippets/stages.html:20
+msgid "Add data"
+msgstr ""
+
+#: odm_library/templates/snippets/search_form.html:12
+msgid "Submit"
+msgstr ""
+>>>>>>> 7fcdfeece3fa5c3357c1f95aac1dc41bd0026b72
