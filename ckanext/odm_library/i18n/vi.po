@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ODM ckanext-odm_library\n"
-"POT-Creation-Date: 2016-12-06 15:36+0100\n"
-"PO-Revision-Date: 2016-12-06 15:36+0100\n"
+"POT-Creation-Date: 2017-12-04 12:11+0100\n"
+"PO-Revision-Date: 2017-12-04 12:11+0100\n"
 "Last-Translator: Linh Do <linh@nature.org.vn>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/open-development-mekong/"
 "odm-ckanext-odm_library/language/vi/)\n"
@@ -22,29 +22,60 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: odm_library/i18n/metadata_fields.php:3
-msgid "Document type"
-msgstr "Loại tài liệu"
-
-#: odm_library/i18n/metadata_fields.php:4
+#: odm_library/i18n/document_types.php:3 odm_library/i18n/metadata_fields.php:4
 msgid "Advocacy and promotional materials"
 msgstr "Tài liệu vận động chính sách và quảng bá"
 
-#: odm_library/i18n/metadata_fields.php:5
+#: odm_library/i18n/document_types.php:4 odm_library/i18n/metadata_fields.php:5
 msgid "Analysis, discussion papers, and blogs"
 msgstr "Các phân tích, thảo luận và blog"
 
-#: odm_library/i18n/metadata_fields.php:6
+#: odm_library/i18n/document_types.php:5 odm_library/i18n/metadata_fields.php:6
 msgid "Books and book chapters"
 msgstr "Sách và các chương"
 
-#: odm_library/i18n/metadata_fields.php:7
+#: odm_library/i18n/document_types.php:6 odm_library/i18n/metadata_fields.php:7
 msgid "Case studies"
 msgstr "Tình huống điển hình"
 
-#: odm_library/i18n/metadata_fields.php:8
+#: odm_library/i18n/document_types.php:7 odm_library/i18n/metadata_fields.php:8
 msgid "Issue and policy briefs"
 msgstr "Vấn đề và tóm lược chính sách"
+
+#: odm_library/i18n/document_types.php:8
+#: odm_library/i18n/metadata_fields.php:11
+msgid "Profiles - Geographical areas and sites"
+msgstr "Dữ liệu về vùng địa lý và các địa danh"
+
+#: odm_library/i18n/document_types.php:9
+#: odm_library/i18n/metadata_fields.php:12
+msgid "Conference/workshop proceedings and presentations"
+msgstr "Kỷ yếu và bài trình bày các hội nghị/hội thảo "
+
+#: odm_library/i18n/document_types.php:10
+#: odm_library/i18n/metadata_fields.php:13
+msgid ""
+"Reports, journal articles, and research papers (including theses and "
+"dissertations)"
+msgstr ""
+"Các báo cáo, bài đăng tạp chí, bài viết nghiên cứu (bao gồm cả luận án, luận "
+"văn)"
+
+#: odm_library/i18n/document_types.php:11
+msgid "Archived web content"
+msgstr ""
+
+#: odm_library/i18n/document_types.php:12
+msgid "EIA/SEIA"
+msgstr ""
+
+#: odm_library/i18n/document_types.php:13
+msgid "Guidelines, instruction manuals, handbooks"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:3
+msgid "Document type"
+msgstr "Loại tài liệu"
 
 #: odm_library/i18n/metadata_fields.php:9
 msgid "Profiles - People"
@@ -53,22 +84,6 @@ msgstr "Dữ liệu về con người"
 #: odm_library/i18n/metadata_fields.php:10
 msgid "Profiles - Organizations  and projects"
 msgstr "Dữ liệu về các tổ chức và dự án"
-
-#: odm_library/i18n/metadata_fields.php:11
-msgid "Profiles - Geographical areas and sites"
-msgstr "Dữ liệu về vùng địa lý và các địa danh"
-
-#: odm_library/i18n/metadata_fields.php:12
-msgid "Conference/workshop proceedings and presentations"
-msgstr "Kỷ yếu và bài trình bày các hội nghị/hội thảo "
-
-#: odm_library/i18n/metadata_fields.php:13
-msgid ""
-"Reports, journal articles, and research papers (including theses and "
-"dissertations)"
-msgstr ""
-"Các báo cáo, bài đăng tạp chí, bài viết nghiên cứu (bao gồm cả luận án, luận "
-"văn)"
 
 #: odm_library/i18n/metadata_fields.php:14
 msgid "Company profiles"
@@ -282,15 +297,150 @@ msgstr "Tên"
 msgid "Format"
 msgstr "Định dạng"
 
-#: odm_library/lib/odm_library_helper.py:27
-msgid ""
-"Thank you for uploading this item. Instructions about vetting system "
-"available on https://wiki.opendevelopmentmekong.net/partners:"
-"content_review#instructions_for_default_issue_on_library_records"
+#: odm_library/i18n/metadata_fields.php:67
+msgid "Province(s)"
 msgstr ""
-"Cảm ơn bạn đã chia sẻ dữ liệu. Bạn có thể tham khảo hướng dẫn về quy trình "
-"kiểm duyệt thông tin của hệ thống tại https://wiki.opendevelopmentmekong.net/"
-"partners:content_review#instructions_for_default_issue_on_library_records"
+
+#: odm_library/i18n/metadata_fields.php:68
+msgid "Yes"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:69
+msgid "No"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:70
+msgid "Unclear copyright"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:71
+msgid "To be determined"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:72
+msgid "Keywords"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:73
+msgid "Date modified"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:74
+msgid "Language(s) of the dataset, including resources within dataset."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:75
+msgid "Main title"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:76
+msgid "eg. my-dataset"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:77
+msgid "Parallel title or translation."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:78
+msgid "e.g. economy, mental health, government"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:79
+msgid "Abstract or summary of book or article"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:80
+msgid ""
+"The geographic area that the dataset is relevant to (i.e. Cambodia, Laos)."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:81
+msgid "The province(s) this dataset relates to"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:82
+msgid ""
+"A few sentences describing legal considerations for people who access the "
+"website and/or use its contents."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:83
+msgid "Version of publication"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:84
+#: odm_library/i18n/metadata_fields.php:85
+msgid "Date a new version or update of the dataset was uploaded."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:86
+msgid ""
+"Contact information for the individual or organization that is responsible "
+"for or most knowledgeable about the dataset. This could be the author of a "
+"report, the contact information for the relevant department of an "
+"organization that produced a report, or the data analyst, mapper or "
+"researcher that produced a dataset or report."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:87
+msgid "Main Entry-Personal Name (author)."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:88
+msgid "Main Entry-Corporate Name (corporate author) or title of journal."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:89
+msgid "Personal Name (co-author), more than one author."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:90
+msgid "Corporate Name, more than one Corporate."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:91
+msgid "13-digit unique number that uniquely identify a commercial book"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:92
+msgid "8-digit number that uniquely identify a serial publication"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:93
+msgid "Place of publisher"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:94
+msgid "Name of publishing organization"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:95
+msgid "Date published (YYYY)"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:96
+msgid "Physical description (pagination)"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:97
+msgid "General note."
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:98
+msgid "e.g Tong_Min_Group_Engineering__21.06.2011.pdf"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:99
+msgid "eg. January 2011 Gold Prices"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:100
+msgid "Some useful notes about the data"
+msgstr ""
+
+#: odm_library/i18n/metadata_fields.php:101
+msgid "Language(s) of the resource."
+msgstr ""
 
 #: odm_library/templates/header.html:5
 msgid "Library"
@@ -337,9 +487,13 @@ msgstr "Dữ liệu thư viện"
 msgid "Activity Stream"
 msgstr "Chuỗi hoạt động"
 
-#: odm_library/templates/package/read_base.html:17
-msgid "Related"
-msgstr "Có liên quan"
+#: odm_library/templates/package/read_base.html:29
+msgid "Record metadata not complete!!"
+msgstr ""
+
+#: odm_library/templates/package/read_base.html:31
+msgid "This publication is missing some mandatory fields, please complete:"
+msgstr ""
 
 #: odm_library/templates/package/search.html:23
 msgid "Add library record"
@@ -367,3 +521,16 @@ msgstr "Bổ sung dữ liệu"
 #: odm_library/templates/snippets/search_form.html:12
 msgid "Submit"
 msgstr "Gửi"
+
+#~ msgid ""
+#~ "Thank you for uploading this item. Instructions about vetting system "
+#~ "available on https://wiki.opendevelopmentmekong.net/partners:"
+#~ "content_review#instructions_for_default_issue_on_library_records"
+#~ msgstr ""
+#~ "Cảm ơn bạn đã chia sẻ dữ liệu. Bạn có thể tham khảo hướng dẫn về quy "
+#~ "trình kiểm duyệt thông tin của hệ thống tại https://wiki."
+#~ "opendevelopmentmekong.net/partners:"
+#~ "content_review#instructions_for_default_issue_on_library_records"
+
+#~ msgid "Related"
+#~ msgstr "Có liên quan"
