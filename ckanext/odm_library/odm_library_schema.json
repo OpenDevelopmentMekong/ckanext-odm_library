@@ -64,7 +64,7 @@
 		},
 		"form_languages": ["en", "th", "km", "vi", "my"],
 		"form_snippet": "text.html",
-		"form_placeholder": "Parallel title or translation."
+		"form_placeholder": "Parallel title"
 	}, {
 		"field_name": "taxonomy",
 		"label": "Topics",
