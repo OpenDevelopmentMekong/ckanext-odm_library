@@ -2,7 +2,7 @@
 
 {% block content_action %}
 	{% if dataset_type == 'library_record' %}
-		{% link_for _('View library record'), controller='package', type='library_record', action='read', id=pkg.name, class_='btn', icon='eye-open' %}
+		{% link_for _('View library record'), controller='package', type='library_record', action='read', id=pkg.name, class_='btn', icon='eye' %}
 	{% else %}
 		{{super()}}
 	{% endif%}
