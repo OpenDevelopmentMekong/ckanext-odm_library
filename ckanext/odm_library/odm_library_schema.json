@@ -29,8 +29,8 @@
 			"my": "ခေါင်းစဉ်အပြည့်အစုံ",
 			"lo": "ຊື່ທາງການ"
 		},
-		"form_languages": ["en", "th", "km", "vi", "my"],
 		"form_placeholder": "Main title",
+        "form_snippet": "slug_target_fluent_text.html",
 		"form_attrs": {
       "data-module": "slug-preview-target"
     }
@@ -39,9 +39,6 @@
 		"required": "true",
 		"label": "title",
 		"preset": "text_hidden",
-    "form_attrs": {
-      "data-module": "slug-preview-target"
-    },
 		"validators": "if_empty_same_as(name)"
 	}, {
 		"field_name": "name",
@@ -61,9 +58,8 @@
 			"vi": "Tên rút gọn (tên thay thế/dạng viết khác)",
 			"my": "ခေါင်းစဉ်အတို (မူရင်းခေါင်းစဉ်နှင့်မတူသောခေါင်းစဉ်)",
 			"lo": "ຊື່ຫຍໍ້ (ຊື່ອື່ນໆ/ຊື່ເອີ້ນຍ່ອຍ)"
-		},
-		"form_languages": ["en", "th", "km", "vi", "my"],
-		"form_snippet": "text.html",
+	},
+        "preset": "odm_text_translated",
 		"form_placeholder": "Parallel title"
 	}, {
 		"field_name": "taxonomy",
@@ -72,9 +68,14 @@
     "required": "true",
 		"validate": "true",
 		"form_placeholder": "e.g. economy, mental health, government"
+	},
+    {
+        "field_name": "notes",
+        "label": "Abstract",
+        "preset": "text_hidden"
 	}, {
 		"field_name": "notes_translated",
-		"preset": "fluent_core_notes_translated_markdown_single",
+		"preset": "odm_notes_translated_markdown",
 		"multilingual": "true",
 		"label": {
 			"en": "Short summary (contents)",
@@ -84,7 +85,6 @@
 			"my": "အနှစ်ချုပ် (အကြောင်းအရာ)",
 			"lo": "ສະຫຼຸບຫຍໍ້ (ເນື້ອໃນ)"
 		},
-		"form_languages": ["en", "th", "km", "vi", "my"],
 		"form_placeholder": "Abstract or summary of book or article"
 	}, {
 		"field_name": "odm_spatial_range",
@@ -107,7 +107,7 @@
 		"help_text": "Select 'Yes', 'No', 'Unclear copyright' or 'To be determined' about the copyright of the dataset. If copyright of any type is present, describe further in Access and User Constraints."
 	}, {
 		"field_name": "odm_access_and_use_constraints",
-		"preset": "fluent_markdown_single",
+		"preset": "fluent_markdown_translated",
 		"label": {
 			"en": "Access and use constraints",
 			"th": "การเข้าถึงและข้อจำกัด",
@@ -116,7 +116,6 @@
 			"my": "ရယူခြင်းနှင့် အကန့်အသတ်များအသုံးပြုခြင်း",
 			"lo": "ຂໍ້ຈຳກັດ ການເຂົ້າເຖິງ ແລະ ການນຳໃຊ້ງານ"
 		},
-		"form_languages": ["en", "th", "km", "vi", "my"],
 		"form_placeholder": "A few sentences describing legal considerations for people who access the website and/or use its contents."
 	}, {
 		"field_name": "version",
@@ -150,7 +149,7 @@
 		"help_text": "License definitions and additional information can be found at http://opendefinition.org/"
 	}, {
 		"field_name": "odm_contact",
-    "preset": "fluent_markdown_single",
+    "preset": "fluent_markdown_translated",
 		"multilingual": "true",
 		"label": {
 			"en": "Contact",
@@ -160,27 +159,26 @@
 			"my": "ဆက်သွယ်ရန်",
 			"lo": "ສັນຍາ"
 		},
-		"form_languages": ["en", "th", "km", "vi", "my"],
 		"form_placeholder": "Contact information for the individual or organization that is responsible for or most knowledgeable about the dataset. This could be the author of a report, the contact information for the relevant department of an organization that produced a report, or the data analyst, mapper or researcher that produced a dataset or report."
 	}, {
 		"field_name": "marc21_100",
 		"label": "Author (individual)",
-		"form_snippet": "text.html",
+		"preset": "odm_text_translated",
 		"form_placeholder": "Main Entry-Personal Name (author)."
 	}, {
 		"field_name": "marc21_110",
 		"label": "Author (corporate)",
-		"form_snippet": "text.html",
+		"preset": "odm_text_translated",
 		"form_placeholder": "Main Entry-Corporate Name (corporate author) or title of journal."
 	}, {
 		"field_name": "marc21_700",
 		"label": "Co-author (individual)",
-		"form_snippet": "text.html",
+		"preset": "odm_text_translated",
 		"form_placeholder": "Personal Name (co-author), more than one author."
 	}, {
 		"field_name": "marc21_710",
 		"label": "Co-author (coorporate)",
-		"form_snippet": "text.html",
+		"preset": "odm_text_translated",
 		"form_placeholder": "Corporate Name, more than one Corporate."
 	}, {
 		"field_name": "marc21_020",
@@ -194,7 +192,7 @@
 		"form_placeholder": "8-digit number that uniquely identify a serial publication"
 	}, {
 		"field_name": "marc21_260a",
-    "preset": "fluent_text_single",
+    "preset": "odm_text_translated",
 		"multilingual": "true",
     "label": {
 			"en": "Publication place",
@@ -204,11 +202,10 @@
 			"my": "ထုတ်ဝေသည့်ရေရာ ",
 			"lo": "ສະຖານທີ່ຕີພິມເອກະສານ"
 		},
-		"form_languages": ["en", "th", "km", "vi", "my"],
 		"form_placeholder": "Place of publisher"
 	}, {
 		"field_name": "marc21_260b",
-    "preset": "fluent_text_single",
+    "preset": "odm_text_translated",
 		"multilingual": "true",
     "label": {
 			"en": "Publisher",
@@ -218,7 +215,6 @@
 			"my": "ထုတ်ဝေသူ",
 			"lo": "ສຳນັກງານຈັດພິມເອກະສານ"
 		},
-		"form_languages": ["en", "th", "km", "vi", "my"],
 		"form_placeholder": "Name of publishing organization"
 	}, {
 		"field_name": "marc21_260c",
@@ -227,7 +223,7 @@
     "preset": "number"
 	}, {
 		"field_name": "marc21_300",
-    "preset": "fluent_text_single",
+    "preset": "odm_text_translated",
 		"multilingual": "true",
 		"label": {
 			"en": "Pagination",
@@ -237,11 +233,10 @@
 			"my": "စာမျက်နှာခွဲ",
 			"lo": "ຈຳນວນໜ້າຂອງເອກະສານ"
 		},
-		"form_languages": ["en", "th", "km", "vi", "my"],
 		"form_placeholder": "Physical description (pagination)"
 	}, {
 		"field_name": "marc21_500",
-    "preset": "fluent_markdown_single",
+    "preset": "fluent_markdown_translated",
 		"multilingual": "true",
 		"label": {
 			"en": "General note",
@@ -251,7 +246,6 @@
 			"my": "အထွေထွေ မှတ်ချက်",
 			"lo": "ໝາຍເຫດ"
 		},
-		"form_languages": ["en", "th", "km", "vi", "my"],
 		"form_placeholder": "General note."
 	}, {
 		"field_name": "odm_reference_document",
@@ -293,7 +287,7 @@
 		"preset": "resource_url_upload"
 	}, {
 		"field_name": "name_translated",
-		"preset": "fluent_text_single",
+		"preset": "odm_text_translated",
 		"validate": "true",
 		"label": {
 			"en": "Name",
@@ -303,7 +297,6 @@
 			"my": "အမည်",
 			"lo": "ຊື່"
 		},
-		"form_languages": ["en", "th", "km", "vi", "my"],
 		"form_placeholder": "eg. January 2011 Gold Prices"
 	}, {
 		"field_name": "name",
@@ -311,7 +304,7 @@
 		"preset": "text_hidden"
 	}, {
 		"field_name": "description_translated",
-		"preset": "fluent_markdown_single",
+		"preset": "fluent_markdown_translated",
 		"validate": "true",
 		"label": {
 			"en": "Description",
@@ -321,7 +314,6 @@
 			"my": "ဖော်ပြချက်",
 			"lo": "ສະຫຼຸບຫຍໍ້ (ເນື້ອໃນ)"
 		},
-		"form_languages": ["en", "th", "km", "vi", "my"],
 		"form_placeholder": "Some useful notes about the data"
 	}, {
 		"field_name": "description",
