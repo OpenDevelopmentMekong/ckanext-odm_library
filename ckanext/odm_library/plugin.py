@@ -30,24 +30,14 @@ class OdmLibraryPlugin(plugins.SingletonPlugin, toolkit.DefaultDatasetForm):
   plugins.implements(plugins.IRoutes, inherit=True)
   plugins.implements(plugins.IPackageController, inherit=True)
 
-  def __init__(self, *args, **kwargs):
-
-    log.debug('OdmLibraryPlugin init')
-    wsgi_app = SessionMiddleware(None, None)
-    odm_library_helper.session = wsgi_app.session
 
   def before_map(self, m):
 
     m.connect('odm_library_index','/library_record',controller='package',type='library_record',action='search')
-
     m.connect('odm_library_new','/library_record/new',controller='package',type='library_record',action='new')
-
     m.connect('odm_library_new_resource','/library_record/new_resource/{id}',controller='package',type='library_record',action='new_resource')
-
     m.connect('odm_library_read', '/library_record/{id}',controller='package',type='library_record', action='read', ckan_icon='book')
-
     m.connect('odm_library_edit', '/library_record/edit/{id}',controller='package',type='library_record', action='edit')
-
     m.connect('odm_library_delete', '/library_record/delete/{id}',controller='package',type='library_record', action='delete')
 
     return m
