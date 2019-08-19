@@ -16,6 +16,12 @@ import ckan.lib.helpers as h
 
 log = logging.getLogger(__name__)
 
+def _get_author_list(pkg):
+  from ckanext.odm_dataset_ext import helpers as h
+  fields = ('marc21_100', 'marc21_110', 'marc21_700', 'marc21_710')
+  return ', '.join([s for s in [h.get_currentlang_data(field, pkg) for field in fields] if s])
+
+
 class OdmLibraryPlugin(plugins.SingletonPlugin, toolkit.DefaultDatasetForm):
   '''OD Mekong library plugin.'''
 
@@ -53,13 +59,16 @@ class OdmLibraryPlugin(plugins.SingletonPlugin, toolkit.DefaultDatasetForm):
     toolkit.add_resource('fanstatic', 'odm_library')
     toolkit.add_public_directory(config, 'public')
 
+
   def get_helpers(self):
     '''Register the plugin's functions above as a template helper function.'''
 
     return {
       'odm_library_get_dataset_type': odm_library_helper.get_dataset_type,
-      'odm_library_validate_fields': odm_library_helper.validate_fields
+      'odm_library_validate_fields': odm_library_helper.validate_fields,
+      'odm_library_author_list': _get_author_list,
     }
+
 
   def after_create(self, context, pkg_dict):
 
