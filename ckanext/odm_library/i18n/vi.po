@@ -1,5 +1,10 @@
+# Translations template for ckanext-odm_library.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the ckanext-odm_library
+# project.
 # 
 # Translators:
+# anhtth16 <anhtth@ewmi-odi.org>, 2019
 # DoLinh <linh@nature.org.vn>, 2016
 # DoLinh <linh@nature.org.vn>, 2016
 # ODM Vietnam <vietnam@opendevmekong.net>, 2015
@@ -8,281 +13,102 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ODM ckanext-odm_library\n"
-"POT-Creation-Date: 2018-01-10 10:18+0100\n"
-"PO-Revision-Date: 2018-01-10 09:21+0000\n"
-"Last-Translator: Alex Corbi <a.corbi@gmail.com>\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-10-14 11:23+0000\n"
+"PO-Revision-Date: 2019-11-11 14:12+0000\n"
+"Last-Translator: anhtth16 <anhtth@ewmi-odi.org>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/open-development-mekong/odm-ckanext-odm_library/language/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
 "Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.7.1\n"
-"X-Poedit-Basepath: ../../../ckanext\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SourceCharset: UTF-8\n"
 
-#: odm_library/i18n/metadata_fields.php:3
-msgid "Document type"
+#: ckanext/odm_library/templates/header.html:5
+msgid "Library"
 msgstr ""
 
-#: odm_library/i18n/metadata_fields.php:4
-msgid "Advocacy and promotional materials"
+#: ckanext/odm_library/templates/package/base.html:5
+#: ckanext/odm_library/templates/package/search.html:5
+#: ckanext/odm_library/templates/package/search.html:13
+msgid "Library records"
 msgstr ""
 
-#: odm_library/i18n/metadata_fields.php:5
-msgid "Analysis, discussion papers, and blogs"
+#: ckanext/odm_library/templates/package/base.html:15
+#: ckanext/odm_library/templates/package/base.html:18
+msgid "Library Records"
 msgstr ""
 
-#: odm_library/i18n/metadata_fields.php:6
-msgid "Books and book chapters"
+#: ckanext/odm_library/templates/package/base.html:19
+#: ckanext/odm_library/templates/package/new.html:5
+#: ckanext/odm_library/templates/package/snippets/new_package_breadcrumb.html:5
+#: ckanext/odm_library/templates/package/snippets/stages.html:7
+#: ckanext/odm_library/templates/package/snippets/stages.html:9
+msgid "Create library record"
 msgstr ""
 
-#: odm_library/i18n/metadata_fields.php:7
-msgid "Case studies"
+#: ckanext/odm_library/templates/package/base_form_page.html:7
+msgid "What are Library records?"
 msgstr ""
 
-#: odm_library/i18n/metadata_fields.php:8
-msgid "Issue and policy briefs"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:9
-msgid "Profiles - People"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:10
-msgid "Profiles - Organizations  and projects"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:11
-msgid "Profiles - Geographical areas and sites"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:12
-msgid "Conference/workshop proceedings and presentations"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:13
+#: ckanext/odm_library/templates/package/base_form_page.html:10
 msgid ""
-"Reports, journal articles, and research papers (including theses and "
-"dissertations)"
+" Library records provide all the bibliographical information or metadata "
+"needed to help users find the documents most appropriate to their needs. "
+"Certain fields on this form are mandatory. Your library record cannot be "
+"uploaded without providing information in those fields. Please provide as "
+"much information as possible, even when fields are not mandatory. If you "
+"need more guidance on how to do this please see <a "
+"href=\"https://wiki.opendevelopmentmekong.net/metadata\" "
+"target=\"_blank\">WIKI</a>. Once you have completed the form, plse check to "
+"make sure it is accurate and complete. Your recommended library item will be"
+" made available to the public once your library record has been vetted. "
 msgstr ""
 
-#: odm_library/i18n/metadata_fields.php:14
-msgid "Company profiles"
+#: ckanext/odm_library/templates/package/edit_base.html:5
+msgid "View library record"
 msgstr ""
 
-#: odm_library/i18n/metadata_fields.php:15
-msgid "Language of document"
+#: ckanext/odm_library/templates/package/new_package_form.html:8
+msgid "Update library record"
 msgstr ""
 
-#: odm_library/i18n/metadata_fields.php:16
-msgid "Burmese"
-msgstr "Tiếng Myanmar"
-
-#: odm_library/i18n/metadata_fields.php:17
-msgid "English"
-msgstr "Tiếng Anh"
-
-#: odm_library/i18n/metadata_fields.php:18
-msgid "Khmer"
-msgstr "Tiếng Khmer"
-
-#: odm_library/i18n/metadata_fields.php:19
-msgid "Lao"
-msgstr "Tiếng Lào"
-
-#: odm_library/i18n/metadata_fields.php:20
-msgid "Thai"
-msgstr "Tiếng Thái Lan"
-
-#: odm_library/i18n/metadata_fields.php:21
-msgid "Vietnamese"
-msgstr "Tiếng Việt"
-
-#: odm_library/i18n/metadata_fields.php:22
-msgid "Chinese"
-msgstr "Tiếng Trung"
-
-#: odm_library/i18n/metadata_fields.php:23
-msgid "French"
-msgstr "Tiếng Pháp"
-
-#: odm_library/i18n/metadata_fields.php:24
-msgid "German"
-msgstr "Tiếng Đức"
-
-#: odm_library/i18n/metadata_fields.php:25
-msgid "Japanese"
-msgstr "Tiếng Nhật"
-
-#: odm_library/i18n/metadata_fields.php:26
-msgid "Korean"
-msgstr "Tiếng Hàn Quốc"
-
-#: odm_library/i18n/metadata_fields.php:27
-msgid "Other"
-msgstr "Ngôn ngữ khác"
-
-#: odm_library/i18n/metadata_fields.php:28
-msgid "URL"
-msgstr "URL"
-
-#: odm_library/i18n/metadata_fields.php:29
-msgid "Formal full title"
+#: ckanext/odm_library/templates/package/read_base.html:8
+msgid "Manage"
 msgstr ""
 
-#: odm_library/i18n/metadata_fields.php:30
-msgid "Short title (alternative/varying form of title)"
+#: ckanext/odm_library/templates/package/read_base.html:18
+msgid "Library Record"
 msgstr ""
 
-#: odm_library/i18n/metadata_fields.php:31
-msgid "Topics"
-msgstr "Chủ đề"
-
-#: odm_library/i18n/metadata_fields.php:32
-msgid "Short summary (contents)"
+#: ckanext/odm_library/templates/package/read_base.html:19
+msgid "Activity Stream"
 msgstr ""
 
-#: odm_library/i18n/metadata_fields.php:33
-msgid "Geographic area (spatial range)"
-msgstr "Vùng địa lý (phạm vi không gian)"
-
-#: odm_library/i18n/metadata_fields.php:34
-msgid "Global"
-msgstr "Toàn cầu"
-
-#: odm_library/i18n/metadata_fields.php:35
-msgid "ASEAN"
-msgstr "ASEAN"
-
-#: odm_library/i18n/metadata_fields.php:36
-msgid "Greater Mekong Subregion (GMS)"
-msgstr "Tiểu vùng Mê Kông mở rộng (GMS)"
-
-#: odm_library/i18n/metadata_fields.php:37
-msgid "Lower Mekong Basin"
-msgstr "Lưu vực hạ Mê Kông"
-
-#: odm_library/i18n/metadata_fields.php:38
-msgid "Lower Mekong countries"
-msgstr "Các nước hạ Mê Kông"
-
-#: odm_library/i18n/metadata_fields.php:39
-msgid "Cambodia"
-msgstr "Campuchia"
-
-#: odm_library/i18n/metadata_fields.php:40
-msgid "Vietnam"
-msgstr "Việt Nam"
-
-#: odm_library/i18n/metadata_fields.php:41
-msgid "Laos"
-msgstr "Lào"
-
-#: odm_library/i18n/metadata_fields.php:42
-msgid "Thailand"
-msgstr "Thái Lan"
-
-#: odm_library/i18n/metadata_fields.php:43
-msgid "Myanmar"
-msgstr "Myanmar"
-
-#: odm_library/i18n/metadata_fields.php:44
-msgid "Copyright"
-msgstr "Bản quyền"
-
-#: odm_library/i18n/metadata_fields.php:45
-msgid "Access and use constraints"
-msgstr "Lưu ý truy cập và sử dụng tài liệu"
-
-#: odm_library/i18n/metadata_fields.php:46
-msgid "Version / Edition"
+#: ckanext/odm_library/templates/package/search.html:23
+msgid "Add library record"
 msgstr ""
 
-#: odm_library/i18n/metadata_fields.php:47
-msgid "Organization"
-msgstr "Tổ chức"
-
-#: odm_library/i18n/metadata_fields.php:48
-msgid "Date uploaded"
-msgstr "Ngày đăng tải dữ liệu"
-
-#: odm_library/i18n/metadata_fields.php:49
-msgid "License"
-msgstr "Giấy phép"
-
-#: odm_library/i18n/metadata_fields.php:50
-msgid "Contact"
-msgstr "Liên hệ"
-
-#: odm_library/i18n/metadata_fields.php:51
-msgid "Author (individual)"
+#: ckanext/odm_library/templates/package/snippets/new_package_breadcrumb.html:4
+msgid "Library record"
 msgstr ""
 
-#: odm_library/i18n/metadata_fields.php:52
-msgid "Author (corporate)"
+#: ckanext/odm_library/templates/package/snippets/package_form.html:5
+msgid "Are you sure you want to delete this dataset?"
 msgstr ""
 
-#: odm_library/i18n/metadata_fields.php:53
-msgid "Co-author (individual)"
+#: ckanext/odm_library/templates/package/snippets/package_form.html:6
+msgid "Delete"
 msgstr ""
 
-#: odm_library/i18n/metadata_fields.php:54
-msgid "Co-author (coorporate)"
+#: ckanext/odm_library/templates/package/snippets/search_form.html:4
+#: ckanext/odm_library/templates/snippets/search_form.html:5
+msgid "Search library records..."
 msgstr ""
 
-#: odm_library/i18n/metadata_fields.php:55
-msgid "ISBN number"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:56
-msgid "ISSN number"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:57
-msgid "Publication place"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:58
-msgid "Publisher"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:59
-msgid "Publication date"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:60
-msgid "Pagination"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:61
-msgid "General note"
-msgstr ""
-
-#: odm_library/i18n/metadata_fields.php:62
-msgid "Legacy reference document"
-msgstr "Văn bản pháp luật liên quan"
-
-#: odm_library/i18n/metadata_fields.php:63
-msgid "Maintainer"
-msgstr "Người cập nhật"
-
-#: odm_library/i18n/metadata_fields.php:64
-msgid "Maintainer email"
-msgstr "Email người cập nhật"
-
-#: odm_library/i18n/metadata_fields.php:65
-msgid "Name"
-msgstr "Tên"
-
-#: odm_library/i18n/metadata_fields.php:66
-msgid "Format"
-msgstr "Định dạng"
-
-#: odm_library/lib/odm_library_helper.py:30
-msgid ""
-"Thank you for uploading this item. Instructions about vetting system "
-"available on "
-"https://wiki.opendevelopmentmekong.net/partners:content_review#instructions_for_default_issue_on_library_records"
+#: ckanext/odm_library/templates/package/snippets/stages.html:14
+#: ckanext/odm_library/templates/package/snippets/stages.html:18
+#: ckanext/odm_library/templates/package/snippets/stages.html:20
+msgid "Add data"
 msgstr ""
