@@ -46,7 +46,6 @@ class OdmLibraryPlugin(plugins.SingletonPlugin, toolkit.DefaultDatasetForm):
     '''Update plugin config'''
 
     toolkit.add_template_directory(config, 'templates')
-    toolkit.add_resource('fanstatic', 'odm_library')
     toolkit.add_public_directory(config, 'public')
 
 
