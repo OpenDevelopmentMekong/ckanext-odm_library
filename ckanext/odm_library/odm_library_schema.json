@@ -618,7 +618,7 @@
                 "vi": "Ng\u00e0y xu\u1ea5t b\u1ea3n (YYYY)", 
                 "my": "\u1011\u102f\u1010\u103a\u101d\u1031\u101e\u100a\u1037\u103a\u101b\u1000\u103a\u1005\u103d\u1032 (\u1001\u102f\u1014\u103e\u1005\u103a)"
             }, 
-            "preset": "number", 
+            "preset": "year", 
             "field_name": "marc21_260c", 
             "label": {
                 "en": "Publication date", 

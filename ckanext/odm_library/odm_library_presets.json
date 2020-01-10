@@ -10,6 +10,14 @@
         "display_snippet": "resource_lookup.html",
         "validators": "scheming_required"
       }
-    }
+    },
+    {
+        "preset_name": "year",
+        "values": {
+            "form_snippet": "text_year.html",
+            "display_snippet": "year.html",
+            "validators": "ignore_missing odm_dataset_numeric"
+        }
+   }
   ]
 }
