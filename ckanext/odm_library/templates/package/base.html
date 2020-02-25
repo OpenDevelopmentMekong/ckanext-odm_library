@@ -11,9 +11,9 @@
 {% block breadcrumb_content %}
 	{% if dataset_type == 'library_record' %}
 		{% if pkg %}
-			{% set dataset = h.odm_dataset_get_currentlang_data('title_translated', pkg) or pkg.name %}
 			<li>{% link_for _('Library Records'), controller='package', type='library_record', action='search' %}</li>
-			<li{{ self.breadcrumb_content_selected() }}>{% link_for dataset|truncate(30), controller='package', type='library_record', action='read', id=pkg.name %}</li>
+			<li{{ self.breadcrumb_content_selected() }}>{% link_for h.dataset_display_name(pkg)|truncate(30), controller='package', type='library_record', action='read', id=pkg.name %}</li>
+			{% set dataset = h.odm_dataset_get_currentlang_data('title_translated', pkg) or pkg.name %}
 		{% else %}
 			<li>{% link_for _('Library Records'), controller='package', type='library_record', action='search' %}</li>
 			<li class="active"><a href="">{{ _('Create library record') }}</a></li>
