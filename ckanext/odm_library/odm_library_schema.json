@@ -6,18 +6,18 @@
             "preset": "resource_url_upload", 
             "field_name": "url", 
             "label": {
-                "en": "URL", 
-                "th": "URL", 
                 "lo": "URL", 
-                "km": "\u17a2\u17b6\u179f\u1799\u178a\u17d2\u178b\u17b6\u1793 URL"
+                "en": "URL", 
+                "km": "\u17a2\u17b6\u179f\u1799\u178a\u17d2\u178b\u17b6\u1793 URL", 
+                "th": "URL"
             }
         }, 
         {
             "form_placeholder": {
-                "en": "eg. January 2011 Gold Prices", 
-                "th": "\u0e40\u0e0a\u0e48\u0e19 \u0e23\u0e32\u0e04\u0e32\u0e17\u0e2d\u0e07\u0e04\u0e33 \u0e13 \u0e21\u0e01\u0e23\u0e32\u0e04\u0e21 2554 ", 
                 "lo": "\u0ec0\u0e8a\u0eb1\u0ec8\u0e99 \u0ea5\u0eb2\u0e84\u0eb2\u0e84\u0ecd\u0eb2\u0ec0\u0e94\u0eb7\u0ead\u0e99\u0ea1\u0eb1\u0e87\u0e81\u0ead\u0e99 2011 ", 
-                "km": "\u17a7. \u178f\u1798\u17d2\u179b\u17c3\u1798\u17b6\u179f\u1780\u17d2\u1793\u17bb\u1784\u1781\u17c2\u1798\u1780\u179a\u17b6 \u1786\u17d2\u1793\u17b6\u17c6\u17e2\u17e0\u17e1\u17e1"
+                "en": "eg. January 2011 Gold Prices", 
+                "km": "\u17a7. \u178f\u1798\u17d2\u179b\u17c3\u1798\u17b6\u179f\u1780\u17d2\u1793\u17bb\u1784\u1781\u17c2\u1798\u1780\u179a\u17b6 \u1786\u17d2\u1793\u17b6\u17c6\u17e2\u17e0\u17e1\u17e1", 
+                "th": "\u0e40\u0e0a\u0e48\u0e19 \u0e23\u0e32\u0e04\u0e32\u0e17\u0e2d\u0e07\u0e04\u0e33 \u0e13 \u0e21\u0e01\u0e23\u0e32\u0e04\u0e21 2554 "
             }, 
             "validate": "true", 
             "preset": "odm_text_translated", 
@@ -38,10 +38,10 @@
         }, 
         {
             "form_placeholder": {
-                "en": "Some useful notes about the data", 
-                "th": "\u0e2b\u0e21\u0e32\u0e22\u0e40\u0e2b\u0e15\u0e38\u0e1a\u0e32\u0e07\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e17\u0e35\u0e48\u0e21\u0e35\u0e1b\u0e23\u0e30\u0e42\u0e22\u0e0a\u0e19\u0e4c\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e01\u0e31\u0e1a\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25", 
                 "lo": "\u0edd\u0eb2\u0e8d\u0ec0\u0eab\u0e94\u0e81\u0ec8\u0ebd\u0ea7\u0e81\u0eb1\u0e9a\u0e82\u0ecd\u0ec9\u0ea1\u0eb9\u0e99", 
-                "km": "\u1780\u17c6\u178e\u178f\u17cb\u1785\u17c6\u178e\u17b6\u17c6\u179f\u17c6\u1781\u17b6\u1793\u17cb\u17d7\u17a2\u17c6\u1796\u17b8\u1791\u17b7\u1793\u17d2\u1793\u1793\u17d0\u1799"
+                "en": "Some useful notes about the data", 
+                "km": "\u1780\u17c6\u178e\u178f\u17cb\u1785\u17c6\u178e\u17b6\u17c6\u179f\u17c6\u1781\u17b6\u1793\u17cb\u17d7\u17a2\u17c6\u1796\u17b8\u1791\u17b7\u1793\u17d2\u1793\u1793\u17d0\u1799", 
+                "th": "\u0e2b\u0e21\u0e32\u0e22\u0e40\u0e2b\u0e15\u0e38\u0e1a\u0e32\u0e07\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e17\u0e35\u0e48\u0e21\u0e35\u0e1b\u0e23\u0e30\u0e42\u0e22\u0e0a\u0e19\u0e4c\u0e40\u0e01\u0e35\u0e48\u0e22\u0e27\u0e01\u0e31\u0e1a\u0e02\u0e49\u0e2d\u0e21\u0e39\u0e25"
             }, 
             "validate": "true", 
             "preset": "fluent_markdown_translated", 
@@ -64,28 +64,28 @@
             "preset": "resource_format_autocomplete", 
             "field_name": "format", 
             "label": {
-                "en": "Format", 
-                "th": "\u0e23\u0e39\u0e1b\u0e41\u0e1a\u0e1a", 
                 "lo": "\u0eae\u0eb9\u0e9a\u0ec1\u0e9a\u0e9a\u0ec0\u0ead\u0e81\u0eb0\u0eaa\u0eb2\u0e99", 
-                "km": "\u1791\u1798\u17d2\u179a\u1784\u17cb"
+                "en": "Format", 
+                "km": "\u1791\u1798\u17d2\u179a\u1784\u17cb", 
+                "th": "\u0e23\u0e39\u0e1b\u0e41\u0e1a\u0e1a"
             }
         }, 
         {
             "form_placeholder": {
-                "en": "Language(s) of the resource.", 
                 "vi": "(C\u00e1c) ng\u00f4n ng\u1eef c\u1ee7a t\u00e0i li\u1ec7u", 
-                "km": "\u1797\u17b6\u179f\u17b6\u179a\u1794\u179f\u17cb\u1792\u1793\u1792\u17b6\u1793", 
+                "en": "Language(s) of the resource.", 
                 "th": "\u0e20\u0e32\u0e29\u0e32\u0e02\u0e2d\u0e07\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23", 
+                "km": "\u1797\u17b6\u179f\u17b6\u179a\u1794\u179f\u17cb\u1792\u1793\u1792\u17b6\u1793", 
                 "lo": "\u0e9e\u0eb2\u0eaa\u0eb2\u0e82\u0ead\u0e87\u0ec1\u0eab\u0ebc\u0ec8\u0e87\u0e82\u0ecd\u0ec9\u0ea1\u0eb9\u0e99"
             }, 
             "validate": "true", 
             "preset": "odm_language", 
             "field_name": "odm_language", 
             "label": {
-                "en": "Resource's languages", 
-                "th": "\u0e20\u0e32\u0e29\u0e32\u0e02\u0e2d\u0e07\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23", 
                 "lo": "\u0e9e\u0eb2\u0eaa\u0eb2\u0e82\u0ead\u0e87\u0ec1\u0eab\u0ebc\u0ec8\u0e87\u0e82\u0ecd\u0ec9\u0ea1\u0eb9\u0e99", 
-                "km": "\u1797\u17b6\u179f\u17b6\u179a\u1794\u179f\u17cb\u1792\u1793\u1792\u17b6\u1793"
+                "en": "Resource's languages", 
+                "km": "\u1797\u17b6\u179f\u17b6\u179a\u1794\u179f\u17cb\u1792\u1793\u1792\u17b6\u1793", 
+                "th": "\u0e20\u0e32\u0e29\u0e32\u0e02\u0e2d\u0e07\u0e40\u0e2d\u0e01\u0e2a\u0e32\u0e23"
             }
         }
     ], 
@@ -153,11 +153,11 @@
             }
         }, 
         {
+            "validators": "if_empty_same_as(name)", 
             "required": "true", 
             "field_name": "title", 
-            "label": "title", 
             "preset": "text_hidden", 
-            "validators": "if_empty_same_as(name)"
+            "label": "title"
         }, 
         {
             "required": "true", 
@@ -542,8 +542,8 @@
                 "vi": "S\u1ed1 duy nh\u1ea5t g\u1ed3m 13 ch\u1eef s\u1ed1 \u0111\u1ec3 x\u00e1c \u0111\u1ecbnh m\u1ed9t quy\u1ec3n s\u00e1ch mang t\u00ednh ch\u1ea5t th\u01b0\u01a1ng m\u1ea1i ", 
                 "my": "\u1005\u102e\u1038\u1015\u103d\u102c\u1038\u1016\u103c\u1005\u103a\u1005\u102c\u1021\u102f\u1015\u103a\u1000\u102d\u102f \u101e\u102e\u1038\u1001\u103c\u102c\u1038\u101e\u1010\u103a\u1019\u103e\u1010\u103a\u1015\u1031\u1038\u101e\u1031\u102c \u1002\u100f\u1014\u103a\u1038 13 \u101c\u102f\u1036\u1038\u1015\u102b \u101e\u102e\u1038\u1001\u103c\u102c\u1038\u1014\u1036\u1015\u102b\u1010\u103a"
             }, 
-            "field_name": "marc21_020", 
             "form_snippet": "text.html", 
+            "field_name": "marc21_020", 
             "label": {
                 "en": "ISBN number", 
                 "lo": "\u0ec0\u0ea5\u0e81\u0ea5\u0eb0\u0eab\u0eb1\u0e94 ISBN ", 
@@ -562,8 +562,8 @@
                 "vi": "S\u1ed1 g\u1ed3m 8 ch\u1eef s\u1ed1 duy nh\u1ea5t x\u00e1c \u0111\u1ecbnh m\u1ed9t \u1ea5n ph\u1ea9m nhi\u1ec1u k\u1ef3", 
                 "my": "\u1021\u1019\u103e\u1010\u103a\u1005\u1009\u103a\u1011\u102f\u1010\u103a\u101d\u1031\u1001\u103c\u1004\u103a\u1038\u1000\u102d\u102f \u101e\u102e\u1038\u1001\u103c\u102c\u1038\u101e\u1010\u103a\u1019\u103e\u1010\u103a\u1015\u1031\u1038\u101e\u1031\u102c \u1002\u100f\u1014\u103a\u1038 8 \u101c\u102f\u1036\u1038\u1015\u102b \u1014\u1036\u1015\u102b\u1010\u103a"
             }, 
-            "field_name": "marc21_022", 
             "form_snippet": "text.html", 
+            "field_name": "marc21_022", 
             "label": {
                 "en": "ISSN number", 
                 "lo": "\u0ec0\u0ea5\u0e81\u0ea5\u0eb0\u0eab\u0eb1\u0e94 ISSN ", 
