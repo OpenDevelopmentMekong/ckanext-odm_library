@@ -5,8 +5,7 @@ import ckan.plugins.toolkit as toolkit
 from beaker.middleware import SessionMiddleware
 import sys
 import os
-sys.path.append(os.path.join(os.path.dirname(__file__), "lib"))
-import odm_library_helper
+from ckanext.odm_library.lib import odm_library_helper
 from urlparse import urlparse
 from ckan.common import config
 import json
@@ -16,31 +15,26 @@ import ckan.lib.helpers as h
 
 log = logging.getLogger(__name__)
 
+try:
+    toolkit.requires_ckan_version("2.9")
+except CkanVersionException:
+    from ckanext.odm_laws.plugin.pylons_plugin import OdmLibraryMixinPlugin
+else:
+    from ckanext.odm_laws.plugin.flask_plugin import OdmLibraryMixinPlugin
+
+
 def _get_author_list(pkg):
   from ckanext.odm_dataset_ext import helpers as h
   fields = ('marc21_100', 'marc21_110', 'marc21_700', 'marc21_710')
   return ', '.join([s for s in [h.get_currentlang_data(field, pkg) for field in fields] if s])
 
 
-class OdmLibraryPlugin(plugins.SingletonPlugin, toolkit.DefaultDatasetForm):
+class OdmLibraryPlugin(OdmLibraryMixinPlugin):
   '''OD Mekong library plugin.'''
 
   plugins.implements(plugins.IConfigurer)
   plugins.implements(plugins.ITemplateHelpers)
-  plugins.implements(plugins.IRoutes, inherit=True)
   plugins.implements(plugins.IPackageController, inherit=True)
-
-
-  def before_map(self, m):
-
-    m.connect('odm_library_index','/library_record',controller='package',type='library_record',action='search')
-    m.connect('odm_library_new','/library_record/new',controller='package',type='library_record',action='new')
-    m.connect('odm_library_new_resource','/library_record/new_resource/{id}',controller='package',type='library_record',action='new_resource')
-    m.connect('odm_library_read', '/library_record/{id}',controller='package',type='library_record', action='read', ckan_icon='book')
-    m.connect('odm_library_edit', '/library_record/edit/{id}',controller='package',type='library_record', action='edit')
-    m.connect('odm_library_delete', '/library_record/delete/{id}',controller='package',type='library_record', action='delete')
-
-    return m
 
   def update_config(self, config):
     '''Update plugin config'''
