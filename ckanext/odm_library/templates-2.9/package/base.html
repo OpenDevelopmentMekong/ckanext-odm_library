@@ -1,0 +1,24 @@
+{% ckan_extends %}
+
+{% block subtitle %}
+	{% if dataset_type == 'library_record' %}
+		{{ _('Library records') }}
+	{% else %}
+		{{ super() }}
+	{% endif %}
+{% endblock %}
+
+{% block breadcrumb_content %}
+	{% if dataset_type == 'library_record' %}
+		{% if pkg %}
+			<li>{% link_for _('Library Records'), named_route='library_record.search' %}</li>
+			<li{{ self.breadcrumb_content_selected() }}>{% link_for h.dataset_display_name(pkg)|truncate(30), named_route='library_record.read', id=pkg.name %}</li>
+			{% set dataset = h.odm_dataset_get_currentlang_data('title_translated', pkg) or pkg.name %}
+		{% else %}
+			<li>{% link_for _('Library Records'), named_route='library_record.search' %}</li>
+			<li class="active"><a href="">{{ _('Create library record') }}</a></li>
+		{% endif %}
+	{% else %}
+		{{ super() }}
+	{% endif %}
+{% endblock %}

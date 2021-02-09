@@ -1,0 +1,8 @@
+{% ckan_extends %}
+
+{% block search_input %}
+    {% if c.type == 'library_record' %}
+  	    {% set placeholder = _('Search library records...') %}
+    {% endif %}
+  	{{ super() }}
+{% endblock %}

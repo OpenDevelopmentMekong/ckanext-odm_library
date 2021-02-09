@@ -1,0 +1,23 @@
+{% ckan_extends %}
+
+{% block content_action %}
+    {% if dataset_type == 'library_record' %}
+        {% if h.check_access('package_update', {'id':pkg.id }) %}
+            <div class="actions">
+
+                {% link_for _('Manage'), named_route='library_record.edit', id=pkg.name, class_='btn', icon='wrench' %}
+            </div>
+        {% endif%}
+    {% else %}
+        {{super()}}
+    {% endif %}
+{% endblock %}
+
+{% block content_primary_nav %}
+	{% if dataset_type == 'library_record' %}
+	  {{ h.build_nav_icon('library_record.read', _('Library Record'), id=pkg.name) }}
+	  {{ h.build_nav_icon('library_record.activity', _('Activity Stream'), id=pkg.name) }}
+	{% else %}
+	  {{super()}}
+	{% endif%}
+{% endblock %}

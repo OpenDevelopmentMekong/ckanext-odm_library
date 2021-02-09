@@ -15,12 +15,10 @@ import ckan.lib.helpers as h
 
 log = logging.getLogger(__name__)
 
-try:
-    toolkit.requires_ckan_version("2.9")
-except CkanVersionException:
-    from ckanext.odm_laws.plugin.pylons_plugin import OdmLibraryMixinPlugin
+if toolkit.check_ckan_version(min_version='2.9.0'):
+  from ckanext.odm_library.plugin.flask_plugin import OdmLibraryMixinPlugin
 else:
-    from ckanext.odm_laws.plugin.flask_plugin import OdmLibraryMixinPlugin
+  from ckanext.odm_library.plugin.pylons_plugin import OdmLibraryMixinPlugin
 
 
 def _get_author_list(pkg):
@@ -39,8 +37,8 @@ class OdmLibraryPlugin(OdmLibraryMixinPlugin):
   def update_config(self, config):
     '''Update plugin config'''
 
-    toolkit.add_template_directory(config, 'templates')
-    toolkit.add_public_directory(config, 'public')
+    toolkit.add_template_directory(config, '../templates')
+    toolkit.add_public_directory(config, '../public')
 
 
   def get_helpers(self):

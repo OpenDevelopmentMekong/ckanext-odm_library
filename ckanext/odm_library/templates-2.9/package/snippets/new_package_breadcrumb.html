@@ -1,0 +1,8 @@
+{% ckan_extends %}
+
+{% if dataset_type == 'library_record' %}
+	<li>{% link_for _('Library record'), named_route='library_record.search', highlight_actions = 'new index' %}</li>
+	<li class="active">{% link_for _('Create library record'), named_route='library_record.new' %}</li>
+{% else %}
+	{{ super() }}
+{% endif %}

@@ -1,0 +1,9 @@
+{% ckan_extends %}
+
+{% block content_action %}
+	{% if dataset_type == 'library_record' %}
+		{% link_for _('View library record'), named_route='library_record.read', id=pkg.name, class_='btn', icon='eye' %}
+	{% else %}
+		{{super()}}
+	{% endif%}
+{% endblock %}
