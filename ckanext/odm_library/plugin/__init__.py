@@ -34,13 +34,6 @@ class OdmLibraryPlugin(OdmLibraryMixinPlugin):
   plugins.implements(plugins.ITemplateHelpers)
   plugins.implements(plugins.IPackageController, inherit=True)
 
-  def update_config(self, config):
-    '''Update plugin config'''
-
-    toolkit.add_template_directory(config, '../templates')
-    toolkit.add_public_directory(config, '../public')
-
-
   def get_helpers(self):
     '''Register the plugin's functions above as a template helper function.'''
 

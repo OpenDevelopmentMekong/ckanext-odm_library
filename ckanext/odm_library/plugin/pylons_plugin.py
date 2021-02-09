@@ -8,6 +8,12 @@ class OdmLibraryMixinPlugin(plugins.SingletonPlugin, toolkit.DefaultDatasetForm)
     '''OD Mekong agreement plugin.'''
     plugins.implements(plugins.IRoutes, inherit=True)
 
+    def update_config(self, config):
+        '''Update plugin config'''
+
+        toolkit.add_template_directory(config, '../templates')
+        toolkit.add_public_directory(config, '../public')
+
     def before_map(self, m):
         m.connect('odm_library_index', '/library_record', controller='package', type='library_record', action='search')
         m.connect('odm_library_new', '/library_record/new', controller='package', type='library_record', action='new')
