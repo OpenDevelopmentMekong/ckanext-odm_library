@@ -20,16 +20,17 @@ def get_dataset_type():
 
   return 'library_record'
 
-def create_default_issue_library_record(pkg_info):
+def create_default_issue_library_record(pkg_info, context=None):
   ''' Uses CKAN API to add a default Issue as part of the vetting workflow for library records'''
   try:
 
     extra_vars = {}
-
+    if not context:
+	  context = dict()
     issue_message = render('messages/default_issue_library_record.txt',extra_vars=extra_vars)
 
     params = {'title':'User Library record Upload Checklist','description':issue_message,'dataset_id':pkg_info['id']}
-    toolkit.get_action('issue_create')(data_dict=params)
+    toolkit.get_action('issue_create')(context, params)
 
   except KeyError:
 
