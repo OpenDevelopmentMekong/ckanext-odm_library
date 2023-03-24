@@ -16,6 +16,7 @@
 {% block content_primary_nav %}
 	{% if dataset_type == 'library_record' %}
 	  {{ h.build_nav_icon('library_record.read', _('Library Record'), id=pkg.name) }}
+      {{ h.build_nav_icon('library_record.groups', _('Groups'), id=pkg.name) }}
 	  {{ h.build_nav_icon('library_record.activity', _('Activity Stream'), id=pkg.name) }}
 	{% else %}
 	  {{super()}}
