@@ -16,6 +16,7 @@
 {% block content_primary_nav %}
 	{% if dataset_type == 'library_record' %}
 	  {{ h.build_nav_icon('odm_library_read', _('Library Record'), id=pkg.name) }}
+      {{ h.build_nav_icon('dataset_groups', _('Groups'), id=pkg.name) }}
 	  {{ h.build_nav_icon('dataset_activity', _('Activity Stream'), id=pkg.name) }}
 	{% else %}
 	  {{super()}}
