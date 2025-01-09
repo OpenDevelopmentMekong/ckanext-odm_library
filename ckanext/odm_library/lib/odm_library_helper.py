@@ -4,10 +4,7 @@
 import logging
 import json
 import os
-import logging
-import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
-from ckan.lib.base import render
 
 DEBUG = False
 
@@ -27,7 +24,7 @@ def create_default_issue_library_record(pkg_info, context=None):
       extra_vars = {}
       if not context:
           context = dict()
-          issue_message = render('messages/default_issue_library_record.txt',extra_vars=extra_vars)
+          issue_message = toolkit.render('messages/default_issue_library_record.txt', extra_vars=extra_vars)
 
       params = {'title':'User Library record Upload Checklist','description':issue_message,'dataset_id':pkg_info['id']}
       toolkit.get_action('issue_create')(context, params)
@@ -53,7 +50,7 @@ def validate_fields(package):
                     if field["field_name"] not in package or not package[field["field_name"]]:
                         missing["package"].append(field["field_name"])
                     elif "multilingual" in field and field["multilingual"] == "true":
-                        json_field = package[field["field_name"]];
+                        json_field = package[field["field_name"]]
                         if json_field and "en" not in json_field or json_field["en"] == "":
                             missing["package"].append(field["field_name"])
 
@@ -63,7 +60,7 @@ def validate_fields(package):
                         if resource_field["field_name"] not in resource or not resource[resource_field["field_name"]]:
                             missing["resources"].append(resource_field["field_name"])
                         elif "multilingual" in resource_field and resource_field["multilingual"] == "true":
-                            json_resource_field = resource[resource_field["field_name"]];
+                            json_resource_field = resource[resource_field["field_name"]]
                             if json_resource_field and "en" not in json_resource_field or json_resource_field["en"] == "":
                                 missing["resources"].append(resource_field["field_name"])
 

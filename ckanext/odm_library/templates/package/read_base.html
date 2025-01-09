@@ -5,7 +5,7 @@
         {% if h.check_access('package_update', {'id':pkg.id }) %}
             <div class="actions">
 
-                {% link_for _('Manage'), controller='package', type='library_record', action='edit', id=pkg.name, class_='btn', icon='wrench' %}
+                {% link_for _('Manage'), named_route='library_record.edit', id=pkg.name, class_='btn', icon='wrench' %}
             </div>
         {% endif%}
     {% else %}
@@ -15,9 +15,9 @@
 
 {% block content_primary_nav %}
 	{% if dataset_type == 'library_record' %}
-	  {{ h.build_nav_icon('odm_library_read', _('Library Record'), id=pkg.name) }}
-      {{ h.build_nav_icon('dataset_groups', _('Groups'), id=pkg.name) }}
-	  {{ h.build_nav_icon('dataset_activity', _('Activity Stream'), id=pkg.name) }}
+	  {{ h.build_nav_icon('library_record.read', _('Library Record'), id=pkg.name) }}
+      {{ h.build_nav_icon('library_record.groups', _('Groups'), id=pkg.name) }}
+	  {{ h.build_nav_icon('library_record.activity', _('Activity Stream'), id=pkg.name) }}
 	{% else %}
 	  {{super()}}
 	{% endif%}

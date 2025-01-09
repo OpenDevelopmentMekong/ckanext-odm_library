@@ -1,25 +1,10 @@
-import ckan
 import logging
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
-from beaker.middleware import SessionMiddleware
-import sys
-import os
 from ckanext.odm_library.lib import odm_library_helper
-from urlparse import urlparse
 from ckan.common import config
-import json
-import collections
-from routes.mapper import SubMapper
-import ckan.lib.helpers as h
 
 log = logging.getLogger(__name__)
-
-if toolkit.check_ckan_version(min_version='2.9.0'):
-  from ckanext.odm_library.plugin.flask_plugin import OdmLibraryMixinPlugin
-else:
-  from ckanext.odm_library.plugin.pylons_plugin import OdmLibraryMixinPlugin
-
 
 def _get_author_list(pkg):
   from ckanext.odm_dataset_ext import helpers as h
@@ -27,12 +12,18 @@ def _get_author_list(pkg):
   return ', '.join([s for s in [h.get_currentlang_data(field, pkg) for field in fields] if s])
 
 
-class OdmLibraryPlugin(OdmLibraryMixinPlugin):
+class OdmLibraryPlugin(plugins.SingletonPlugin, toolkit.DefaultDatasetForm):
   '''OD Mekong library plugin.'''
 
   plugins.implements(plugins.IConfigurer)
   plugins.implements(plugins.ITemplateHelpers)
   plugins.implements(plugins.IPackageController, inherit=True)
+
+  def update_config(self, config):
+      '''Update plugin config'''
+
+      toolkit.add_template_directory(config, 'templates')
+      toolkit.add_public_directory(config, 'public')
 
   def get_helpers(self):
     '''Register the plugin's functions above as a template helper function.'''

@@ -2,5 +2,5 @@
 
 {% block header_site_navigation_tabs %}
  {{ super() }}
- <li>{% link_for _('Library'), controller='package', type='library_record', action='search' %}</li>
+ <li>{% link_for _('Library'), named_route='library_record.search' %}</li>
 {% endblock %}
