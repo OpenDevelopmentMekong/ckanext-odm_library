@@ -35,7 +35,7 @@ class OdmLibraryPlugin(plugins.SingletonPlugin, toolkit.DefaultDatasetForm):
     }
 
 
-  def after_create(self, context, pkg_dict):
+  def after_dataset_create(self, context, pkg_dict):
 
     dataset_type = context['package'].type if 'package' in context else pkg_dict['type']
 
@@ -46,3 +46,7 @@ class OdmLibraryPlugin(plugins.SingletonPlugin, toolkit.DefaultDatasetForm):
       if review_system:
         if pkg_dict['type'] == 'library_record':
           odm_library_helper.create_default_issue_library_record(pkg_dict)
+
+  # It's unclear what this is doing, so for now just don't improve the situation
+  after_resource_create = after_dataset_create
+  after_create = after_dataset_create
